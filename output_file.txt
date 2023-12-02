@@ -1,0 +1,3890 @@
+{
+  "trips": [
+    {
+      "id": "mgtECgJWMRLiBsKswrZCQUlNwrZ0AQuYSEtJwrZHQEYkQT0yQE89NDYuOTU0MzIwLCA3LjM4MzY0MEBYPTczCQoMWT00Ngkf4EB1PTBAYT0xMjhAJEE9MUBPPUJldGhsZWhlbSBiLiBCZXJuLCBIb2xlbmFja2VyQFg9NzM4MjQ2MwlEEDQ4NjU1BUQgTD04NTcxNDM1EU4sMjAyMzEyMTgxMzA5HQ0YMjMkJCQxJAUBCMKnVP51ADp1ABHDAbYYQmFobmhvZgGzFDQ0MDIxMBGzCDEwNhmzDDY2NDZGswAEMjMdsyg0MSRUIDggMjUwOR27AFf6bQAZqwWiEDM5MTMxEaIIODM0FaIMMDcwMDWjOVUENDEuDQAANz1VKLZHUMK2ZnRAMEAyATo8MTIwQC0xQDEwMEAxQEAwQAEBFGZhbHNlQAUYBQUQLTFAJGY2AwAIwqdi7kMACUMAdDpVAMhmQCTCp8K2S0PCtiNWRSMyI0NGIzEwMCNDQSMwI0NNIzAjU0lDVCMxI0FNIzExNTUwODABDCAyIzAjUlQjNyMBOw08NDAjRVJHIzgxOTUjSElOAQ8kQ0sjNTM5MzUyfAEHBDQ5BQcEODAJBxw3fDB8MHw4NQUOHDQ3fDF8MHwyBRQULTIxNDc0YRgAOAFgAFIRYTAxIxquBAo6ChIKBzg1RdrAEgdTVEFUSU9OEhkyMDIzLTEyLTE4VDEzOjIzOjAwKzAxOjAwIgdQTEFOTkVEKAMKHwk8EDkwMDQ2FTwAIhUhAAQRIRA3MTM0NEohAAAFESEQMDc5OTNKIQAABhEhAWNOIQAABxEhEDc5ODk4SkIAAAgRIRA4MDkzOUohAAAJESEMOTAwMDkCGcYACh0hBDQySkIAAAsuIQAAMUohAAAMHSEAME6EAAANESEBxgA3SkIAAA4uIQBOawEADzXIYe8VQgAaOsgBADQhwj7IAVgQEhgIAxAQGgYwMDA4MjciAVQqATgyBIEOPCoOUFVCTElDX0pPVVJORVk",
+      "legs": [
+        {
+          "type": "AccessLeg",
+          "mode": "FOOT",
+          "id": "0",
+          "distance": 1009,
+          "duration": "PT14M",
+          "start": {
+            "place": {
+              "type": "Address",
+              "id": "A=2@O=46.954320, 7.383640@X=7383640@Y=46954320@",
+              "name": "46.954320, 7.383640",
+              "canton": "BE",
+              "centroid": {
+                "type": "Point",
+                "coordinates": [
+                  7.38364,
+                  46.95432
+                ]
+              }
+            },
+            "timeAimed": "2023-12-18T13:09:00+01:00"
+          },
+          "end": {
+            "place": {
+              "type": "StopPlace",
+              "id": "8571435",
+              "name": "Bethlehem b. Bern, Holenacker",
+              "canton": "BE",
+              "centroid": {
+                "type": "Point",
+                "coordinates": [
+                  7.382463,
+                  46.948655
+                ]
+              },
+              "tariffBorder": false,
+              "vehicleModes": [],
+              "links": {
+                "detail": "/v3/stop-places/8571435"
+              }
+            },
+            "timeAimed": "2023-12-18T13:23:00+01:00"
+          }
+        },
+        {
+          "type": "PTRideLeg",
+          "mode": "TRAMWAY",
+          "id": "1",
+          "duration": "PT18M",
+          "serviceJourney": {
+            "id": "1|87998|1|95|18122023|C:B",
+            "stopPoints": [
+              {
+                "place": {
+                  "type": "StopPlace",
+                  "id": "8571435",
+                  "name": "Bethlehem b. Bern, Holenacker",
+                  "canton": "BE",
+                  "centroid": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.382463,
+                      46.948655
+                    ]
+                  },
+                  "tariffBorder": false,
+                  "vehicleModes": [],
+                  "links": {
+                    "detail": "/v3/stop-places/8571435"
+                  }
+                },
+                "forBoarding": true,
+                "forAlighting": true,
+                "accessibilityBoardingAlighting": {
+                  "limitation": "BOARDING_ALIGHTING_BY_CREW",
+                  "name": "Board/alight with train crew assistance",
+                  "description": "Please contact the transport or service staff directly to request assistance.",
+                  "assistanceService": {
+                    "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                    "arguments": {
+                      "PHONE": [
+                        "+41 800 007 102"
+                      ],
+                      "URL": [
+                        "sbb.ch/en/handicap"
+                      ]
+                    }
+                  },
+                  "corporateIdentityIcon": "sa-rp"
+                },
+                "stopStatus": "PLANNED",
+                "requestStop": false,
+                "departure": {
+                  "timeAimed": "2023-12-18T13:23:00+01:00",
+                  "quayAimed": {
+                    "id": "8571435_$$2",
+                    "swissLocationId": "ch:1:sloid:71435:0:16",
+                    "name": "$$2"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "$$2"
+                },
+                "delayUndefined": false,
+                "routeIndex": 3,
+                "occupancyFirstClass": "UNKNOWN",
+                "occupancySecondClass": "UNKNOWN"
+              },
+              {
+                "place": {
+                  "type": "StopPlace",
+                  "id": "8590046",
+                  "name": "Bern, Tscharnergut",
+                  "canton": "BE",
+                  "centroid": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.388306,
+                      46.948906
+                    ]
+                  },
+                  "tariffBorder": false,
+                  "vehicleModes": [],
+                  "links": {
+                    "detail": "/v3/stop-places/8590046"
+                  }
+                },
+                "forBoarding": true,
+                "forAlighting": true,
+                "accessibilityBoardingAlighting": {
+                  "limitation": "BOARDING_ALIGHTING_SELF",
+                  "name": "Independent boarding/alighting",
+                  "description": "You can board and alight independently on this connection.",
+                  "assistanceService": {
+                    "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                    "arguments": {
+                      "PHONE": [
+                        "+41 800 007 102"
+                      ],
+                      "URL": [
+                        "sbb.ch/en/handicap"
+                      ]
+                    }
+                  },
+                  "corporateIdentityIcon": "sa-rs"
+                },
+                "stopStatus": "PLANNED",
+                "requestStop": false,
+                "arrival": {
+                  "timeAimed": "2023-12-18T13:24:00+01:00",
+                  "quayAimed": {
+                    "id": "8590046_$$3",
+                    "swissLocationId": "ch:1:sloid:90046:0:16",
+                    "name": "$$3"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "$$3"
+                },
+                "departure": {
+                  "timeAimed": "2023-12-18T13:24:00+01:00",
+                  "quayAimed": {
+                    "id": "8590046_$$3",
+                    "swissLocationId": "ch:1:sloid:90046:0:16",
+                    "name": "$$3"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "$$3"
+                },
+                "delayUndefined": false,
+                "routeIndex": 4,
+                "occupancyFirstClass": "UNKNOWN",
+                "occupancySecondClass": "UNKNOWN"
+              },
+              {
+                "place": {
+                  "type": "StopPlace",
+                  "id": "8571344",
+                  "name": "Bethlehem b. Bern, Kirche",
+                  "canton": "BE",
+                  "centroid": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.394185,
+                      46.94923
+                    ]
+                  },
+                  "tariffBorder": false,
+                  "vehicleModes": [],
+                  "links": {
+                    "detail": "/v3/stop-places/8571344"
+                  }
+                },
+                "forBoarding": true,
+                "forAlighting": true,
+                "accessibilityBoardingAlighting": {
+                  "limitation": "BOARDING_ALIGHTING_SHUTTLE_TRANSPORT",
+                  "name": "By shuttle to the accessible stop, register in advance",
+                  "description": "You will need a shuttle for this connection. Please register with the Contact Center Handicap at least two hours before your train departs.",
+                  "assistanceService": {
+                    "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                    "arguments": {
+                      "PHONE": [
+                        "+41 800 007 102"
+                      ],
+                      "URL": [
+                        "sbb.ch/en/handicap"
+                      ]
+                    }
+                  },
+                  "corporateIdentityIcon": "sa-wt"
+                },
+                "stopStatus": "PLANNED",
+                "requestStop": false,
+                "arrival": {
+                  "timeAimed": "2023-12-18T13:25:00+01:00",
+                  "quayChanged": false
+                },
+                "departure": {
+                  "timeAimed": "2023-12-18T13:25:00+01:00",
+                  "quayChanged": false
+                },
+                "delayUndefined": false,
+                "routeIndex": 5,
+                "occupancyFirstClass": "UNKNOWN",
+                "occupancySecondClass": "UNKNOWN"
+              },
+              {
+                "place": {
+                  "type": "StopPlace",
+                  "id": "8507993",
+                  "name": "Bethlehem b. Bern, S\u00e4ge",
+                  "canton": "BE",
+                  "centroid": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.395093,
+                      46.947396
+                    ]
+                  },
+                  "tariffBorder": false,
+                  "vehicleModes": [],
+                  "links": {
+                    "detail": "/v3/stop-places/8507993"
+                  }
+                },
+                "forBoarding": true,
+                "forAlighting": true,
+                "accessibilityBoardingAlighting": {
+                  "limitation": "BOARDING_ALIGHTING_BY_CREW",
+                  "name": "Board/alight with train crew assistance",
+                  "description": "Please contact the transport or service staff directly to request assistance.",
+                  "assistanceService": {
+                    "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                    "arguments": {
+                      "PHONE": [
+                        "+41 800 007 102"
+                      ],
+                      "URL": [
+                        "sbb.ch/en/handicap"
+                      ]
+                    }
+                  },
+                  "corporateIdentityIcon": "sa-rp"
+                },
+                "stopStatus": "PLANNED",
+                "requestStop": false,
+                "arrival": {
+                  "timeAimed": "2023-12-18T13:26:00+01:00",
+                  "quayAimed": {
+                    "id": "8507993_$$2",
+                    "swissLocationId": "ch:1:sloid:7993:0:16",
+                    "name": "$$2"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "$$2"
+                },
+                "departure": {
+                  "timeAimed": "2023-12-18T13:26:00+01:00",
+                  "quayAimed": {
+                    "id": "8507993_$$2",
+                    "swissLocationId": "ch:1:sloid:7993:0:16",
+                    "name": "$$2"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "$$2"
+                },
+                "delayUndefined": false,
+                "routeIndex": 6,
+                "occupancyFirstClass": "UNKNOWN",
+                "occupancySecondClass": "UNKNOWN"
+              },
+              {
+                "place": {
+                  "type": "StopPlace",
+                  "id": "8590043",
+                  "name": "Bern, St\u00f6ckacker (Tram)",
+                  "canton": "BE",
+                  "centroid": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.399003,
+                      46.944672
+                    ]
+                  },
+                  "tariffBorder": false,
+                  "vehicleModes": [],
+                  "links": {
+                    "detail": "/v3/stop-places/8590043"
+                  }
+                },
+                "forBoarding": true,
+                "forAlighting": true,
+                "accessibilityBoardingAlighting": {
+                  "limitation": "BOARDING_ALIGHTING_BY_CREW",
+                  "name": "Board/alight with train crew assistance",
+                  "description": "Please contact the transport or service staff directly to request assistance.",
+                  "assistanceService": {
+                    "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                    "arguments": {
+                      "PHONE": [
+                        "+41 800 007 102"
+                      ],
+                      "URL": [
+                        "sbb.ch/en/handicap"
+                      ]
+                    }
+                  },
+                  "corporateIdentityIcon": "sa-rp"
+                },
+                "stopStatus": "PLANNED",
+                "requestStop": false,
+                "arrival": {
+                  "timeAimed": "2023-12-18T13:28:00+01:00",
+                  "quayAimed": {
+                    "id": "8590043_$$2",
+                    "swissLocationId": "ch:1:sloid:90043:0:16",
+                    "name": "$$2"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "$$2"
+                },
+                "departure": {
+                  "timeAimed": "2023-12-18T13:28:00+01:00",
+                  "quayAimed": {
+                    "id": "8590043_$$2",
+                    "swissLocationId": "ch:1:sloid:90043:0:16",
+                    "name": "$$2"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "$$2"
+                },
+                "delayUndefined": false,
+                "routeIndex": 7,
+                "occupancyFirstClass": "UNKNOWN",
+                "occupancySecondClass": "UNKNOWN"
+              },
+              {
+                "place": {
+                  "type": "StopPlace",
+                  "id": "8579898",
+                  "name": "B\u00fcmpliz, Unterf\u00fchrung",
+                  "canton": "BE",
+                  "centroid": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.400702,
+                      46.942191
+                    ]
+                  },
+                  "tariffBorder": false,
+                  "vehicleModes": [],
+                  "links": {
+                    "detail": "/v3/stop-places/8579898"
+                  }
+                },
+                "forBoarding": true,
+                "forAlighting": true,
+                "accessibilityBoardingAlighting": {
+                  "limitation": "BOARDING_ALIGHTING_BY_CREW",
+                  "name": "Board/alight with train crew assistance",
+                  "description": "Please contact the transport or service staff directly to request assistance.",
+                  "assistanceService": {
+                    "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                    "arguments": {
+                      "PHONE": [
+                        "+41 800 007 102"
+                      ],
+                      "URL": [
+                        "sbb.ch/en/handicap"
+                      ]
+                    }
+                  },
+                  "corporateIdentityIcon": "sa-rp"
+                },
+                "stopStatus": "PLANNED",
+                "requestStop": false,
+                "arrival": {
+                  "timeAimed": "2023-12-18T13:29:00+01:00",
+                  "quayAimed": {
+                    "id": "8579898_A",
+                    "swissLocationId": "ch:1:sloid:79898:0:18",
+                    "name": "A"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "A"
+                },
+                "departure": {
+                  "timeAimed": "2023-12-18T13:29:00+01:00",
+                  "quayAimed": {
+                    "id": "8579898_A",
+                    "swissLocationId": "ch:1:sloid:79898:0:18",
+                    "name": "A"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "A"
+                },
+                "delayUndefined": false,
+                "routeIndex": 8,
+                "occupancyFirstClass": "UNKNOWN",
+                "occupancySecondClass": "UNKNOWN"
+              },
+              {
+                "place": {
+                  "type": "StopPlace",
+                  "id": "8580939",
+                  "name": "Bern Europaplatz, Bahnhof",
+                  "canton": "BE",
+                  "centroid": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.406311,
+                      46.943252
+                    ]
+                  },
+                  "tariffBorder": false,
+                  "vehicleModes": [],
+                  "links": {
+                    "detail": "/v3/stop-places/8580939"
+                  }
+                },
+                "forBoarding": true,
+                "forAlighting": true,
+                "accessibilityBoardingAlighting": {
+                  "limitation": "BOARDING_ALIGHTING_SELF",
+                  "name": "Independent boarding/alighting",
+                  "description": "You can board and alight independently on this connection.",
+                  "assistanceService": {
+                    "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                    "arguments": {
+                      "PHONE": [
+                        "+41 800 007 102"
+                      ],
+                      "URL": [
+                        "sbb.ch/en/handicap"
+                      ]
+                    }
+                  },
+                  "corporateIdentityIcon": "sa-rs"
+                },
+                "stopStatus": "PLANNED",
+                "requestStop": false,
+                "arrival": {
+                  "timeAimed": "2023-12-18T13:31:00+01:00",
+                  "quayAimed": {
+                    "id": "8580939_A",
+                    "swissLocationId": "ch:1:sloid:80939:0:16",
+                    "name": "A"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "A"
+                },
+                "departure": {
+                  "timeAimed": "2023-12-18T13:31:00+01:00",
+                  "quayAimed": {
+                    "id": "8580939_A",
+                    "swissLocationId": "ch:1:sloid:80939:0:16",
+                    "name": "A"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "A"
+                },
+                "delayUndefined": false,
+                "routeIndex": 9,
+                "occupancyFirstClass": "UNKNOWN",
+                "occupancySecondClass": "UNKNOWN"
+              },
+              {
+                "place": {
+                  "type": "StopPlace",
+                  "id": "8590005",
+                  "name": "Bern, Steigerhubel",
+                  "canton": "BE",
+                  "centroid": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.411669,
+                      46.943935
+                    ]
+                  },
+                  "tariffBorder": false,
+                  "vehicleModes": [],
+                  "links": {
+                    "detail": "/v3/stop-places/8590005"
+                  }
+                },
+                "forBoarding": true,
+                "forAlighting": true,
+                "accessibilityBoardingAlighting": {
+                  "limitation": "BOARDING_ALIGHTING_BY_CREW",
+                  "name": "Board/alight with train crew assistance",
+                  "description": "Please contact the transport or service staff directly to request assistance.",
+                  "assistanceService": {
+                    "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                    "arguments": {
+                      "PHONE": [
+                        "+41 800 007 102"
+                      ],
+                      "URL": [
+                        "sbb.ch/en/handicap"
+                      ]
+                    }
+                  },
+                  "corporateIdentityIcon": "sa-rp"
+                },
+                "stopStatus": "PLANNED",
+                "requestStop": false,
+                "arrival": {
+                  "timeAimed": "2023-12-18T13:32:00+01:00",
+                  "quayAimed": {
+                    "id": "8590005_$$2",
+                    "swissLocationId": "ch:1:sloid:90005:0:16",
+                    "name": "$$2"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "$$2"
+                },
+                "departure": {
+                  "timeAimed": "2023-12-18T13:32:00+01:00",
+                  "quayAimed": {
+                    "id": "8590005_$$2",
+                    "swissLocationId": "ch:1:sloid:90005:0:16",
+                    "name": "$$2"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "$$2"
+                },
+                "delayUndefined": false,
+                "routeIndex": 10,
+                "occupancyFirstClass": "UNKNOWN",
+                "occupancySecondClass": "UNKNOWN"
+              },
+              {
+                "place": {
+                  "type": "StopPlace",
+                  "id": "8590042",
+                  "name": "Bern, Schlossmatte",
+                  "canton": "BE",
+                  "centroid": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.414995,
+                      46.944169
+                    ]
+                  },
+                  "tariffBorder": false,
+                  "vehicleModes": [],
+                  "links": {
+                    "detail": "/v3/stop-places/8590042"
+                  }
+                },
+                "forBoarding": true,
+                "forAlighting": true,
+                "accessibilityBoardingAlighting": {
+                  "limitation": "BOARDING_ALIGHTING_BY_CREW",
+                  "name": "Board/alight with train crew assistance",
+                  "description": "Please contact the transport or service staff directly to request assistance.",
+                  "assistanceService": {
+                    "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                    "arguments": {
+                      "PHONE": [
+                        "+41 800 007 102"
+                      ],
+                      "URL": [
+                        "sbb.ch/en/handicap"
+                      ]
+                    }
+                  },
+                  "corporateIdentityIcon": "sa-rp"
+                },
+                "stopStatus": "PLANNED",
+                "requestStop": false,
+                "arrival": {
+                  "timeAimed": "2023-12-18T13:33:00+01:00",
+                  "quayAimed": {
+                    "id": "8590042_$$2",
+                    "swissLocationId": "ch:1:sloid:90042:0:16",
+                    "name": "$$2"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "$$2"
+                },
+                "departure": {
+                  "timeAimed": "2023-12-18T13:33:00+01:00",
+                  "quayAimed": {
+                    "id": "8590042_$$2",
+                    "swissLocationId": "ch:1:sloid:90042:0:16",
+                    "name": "$$2"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "$$2"
+                },
+                "delayUndefined": false,
+                "routeIndex": 11,
+                "occupancyFirstClass": "UNKNOWN",
+                "occupancySecondClass": "UNKNOWN"
+              },
+              {
+                "place": {
+                  "type": "StopPlace",
+                  "id": "8590041",
+                  "name": "Bern, Loryplatz",
+                  "canton": "BE",
+                  "centroid": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.421296,
+                      46.944439
+                    ]
+                  },
+                  "tariffBorder": false,
+                  "vehicleModes": [],
+                  "links": {
+                    "detail": "/v3/stop-places/8590041"
+                  }
+                },
+                "forBoarding": true,
+                "forAlighting": true,
+                "accessibilityBoardingAlighting": {
+                  "limitation": "BOARDING_ALIGHTING_SELF",
+                  "name": "Independent boarding/alighting",
+                  "description": "You can board and alight independently on this connection.",
+                  "assistanceService": {
+                    "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                    "arguments": {
+                      "PHONE": [
+                        "+41 800 007 102"
+                      ],
+                      "URL": [
+                        "sbb.ch/en/handicap"
+                      ]
+                    }
+                  },
+                  "corporateIdentityIcon": "sa-rs"
+                },
+                "stopStatus": "PLANNED",
+                "requestStop": false,
+                "arrival": {
+                  "timeAimed": "2023-12-18T13:34:00+01:00",
+                  "quayAimed": {
+                    "id": "8590041_A",
+                    "swissLocationId": "ch:1:sloid:90041:0:16",
+                    "name": "A"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "A"
+                },
+                "departure": {
+                  "timeAimed": "2023-12-18T13:34:00+01:00",
+                  "quayAimed": {
+                    "id": "8590041_A",
+                    "swissLocationId": "ch:1:sloid:90041:0:16",
+                    "name": "A"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "A"
+                },
+                "delayUndefined": false,
+                "routeIndex": 12,
+                "occupancyFirstClass": "UNKNOWN",
+                "occupancySecondClass": "UNKNOWN"
+              },
+              {
+                "place": {
+                  "type": "StopPlace",
+                  "id": "8590009",
+                  "name": "Bern, Kaufm\u00e4nnischer Verband",
+                  "canton": "BE",
+                  "centroid": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.427472,
+                      46.945688
+                    ]
+                  },
+                  "tariffBorder": false,
+                  "vehicleModes": [],
+                  "links": {
+                    "detail": "/v3/stop-places/8590009"
+                  }
+                },
+                "forBoarding": true,
+                "forAlighting": true,
+                "accessibilityBoardingAlighting": {
+                  "limitation": "BOARDING_ALIGHTING_BY_CREW",
+                  "name": "Board/alight with train crew assistance",
+                  "description": "Please contact the transport or service staff directly to request assistance.",
+                  "assistanceService": {
+                    "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                    "arguments": {
+                      "PHONE": [
+                        "+41 800 007 102"
+                      ],
+                      "URL": [
+                        "sbb.ch/en/handicap"
+                      ]
+                    }
+                  },
+                  "corporateIdentityIcon": "sa-rp"
+                },
+                "stopStatus": "PLANNED",
+                "requestStop": false,
+                "arrival": {
+                  "timeAimed": "2023-12-18T13:36:00+01:00",
+                  "quayAimed": {
+                    "id": "8590009_$$2",
+                    "swissLocationId": "ch:1:sloid:90009:0:16",
+                    "name": "$$2"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "$$2"
+                },
+                "departure": {
+                  "timeAimed": "2023-12-18T13:36:00+01:00",
+                  "quayAimed": {
+                    "id": "8590009_$$2",
+                    "swissLocationId": "ch:1:sloid:90009:0:16",
+                    "name": "$$2"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "$$2"
+                },
+                "delayUndefined": false,
+                "routeIndex": 13,
+                "occupancyFirstClass": "UNKNOWN",
+                "occupancySecondClass": "UNKNOWN"
+              },
+              {
+                "place": {
+                  "type": "StopPlace",
+                  "id": "8579897",
+                  "name": "Bern, Kocherpark",
+                  "canton": "BE",
+                  "centroid": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.434052,
+                      46.945886
+                    ]
+                  },
+                  "tariffBorder": false,
+                  "vehicleModes": [],
+                  "links": {
+                    "detail": "/v3/stop-places/8579897"
+                  }
+                },
+                "forBoarding": true,
+                "forAlighting": true,
+                "accessibilityBoardingAlighting": {
+                  "limitation": "BOARDING_ALIGHTING_NOT_POSSIBLE",
+                  "name": "Connection not wheelchair accessible",
+                  "description": "This connection is not wheelchair accessible. There may be an accessible boarding/alighting location nearby. Obtain information from the Contact Center Handicap.",
+                  "assistanceService": {
+                    "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                    "arguments": {
+                      "PHONE": [
+                        "+41 800 007 102"
+                      ],
+                      "URL": [
+                        "sbb.ch/en/handicap"
+                      ]
+                    }
+                  },
+                  "corporateIdentityIcon": "sa-rn"
+                },
+                "stopStatus": "PLANNED",
+                "requestStop": false,
+                "arrival": {
+                  "timeAimed": "2023-12-18T13:38:00+01:00",
+                  "quayAimed": {
+                    "id": "8579897_A",
+                    "swissLocationId": "ch:1:sloid:79897:0:2",
+                    "name": "A"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "A"
+                },
+                "departure": {
+                  "timeAimed": "2023-12-18T13:38:00+01:00",
+                  "quayAimed": {
+                    "id": "8579897_A",
+                    "swissLocationId": "ch:1:sloid:79897:0:2",
+                    "name": "A"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "A"
+                },
+                "delayUndefined": false,
+                "routeIndex": 14,
+                "occupancyFirstClass": "UNKNOWN",
+                "occupancySecondClass": "UNKNOWN"
+              },
+              {
+                "place": {
+                  "type": "StopPlace",
+                  "id": "8579896",
+                  "name": "Bern, Hirschengraben",
+                  "canton": "BE",
+                  "centroid": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.437783,
+                      46.946066
+                    ]
+                  },
+                  "tariffBorder": false,
+                  "vehicleModes": [],
+                  "links": {
+                    "detail": "/v3/stop-places/8579896"
+                  }
+                },
+                "forBoarding": true,
+                "forAlighting": true,
+                "accessibilityBoardingAlighting": {
+                  "limitation": "BOARDING_ALIGHTING_BY_CREW",
+                  "name": "Board/alight with train crew assistance",
+                  "description": "Please contact the transport or service staff directly to request assistance.",
+                  "assistanceService": {
+                    "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                    "arguments": {
+                      "PHONE": [
+                        "+41 800 007 102"
+                      ],
+                      "URL": [
+                        "sbb.ch/en/handicap"
+                      ]
+                    }
+                  },
+                  "corporateIdentityIcon": "sa-rp"
+                },
+                "stopStatus": "PLANNED",
+                "requestStop": false,
+                "arrival": {
+                  "timeAimed": "2023-12-18T13:39:00+01:00",
+                  "quayAimed": {
+                    "id": "8579896_B",
+                    "swissLocationId": "ch:1:sloid:79896:0:2",
+                    "name": "B"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "B"
+                },
+                "departure": {
+                  "timeAimed": "2023-12-18T13:39:00+01:00",
+                  "quayAimed": {
+                    "id": "8579896_B",
+                    "swissLocationId": "ch:1:sloid:79896:0:2",
+                    "name": "B"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "B"
+                },
+                "delayUndefined": false,
+                "routeIndex": 15,
+                "occupancyFirstClass": "UNKNOWN",
+                "occupancySecondClass": "UNKNOWN"
+              },
+              {
+                "place": {
+                  "type": "StopPlace",
+                  "id": "8576646",
+                  "name": "Bern, Bahnhof",
+                  "canton": "BE",
+                  "centroid": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.44021,
+                      46.948106
+                    ]
+                  },
+                  "tariffBorder": false,
+                  "vehicleModes": [],
+                  "links": {
+                    "detail": "/v3/stop-places/8576646"
+                  }
+                },
+                "forBoarding": true,
+                "forAlighting": true,
+                "accessibilityBoardingAlighting": {
+                  "limitation": "BOARDING_ALIGHTING_BY_CREW",
+                  "name": "Board/alight with train crew assistance",
+                  "description": "Please contact the transport or service staff directly to request assistance.",
+                  "assistanceService": {
+                    "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                    "arguments": {
+                      "PHONE": [
+                        "+41 800 007 102"
+                      ],
+                      "URL": [
+                        "sbb.ch/en/handicap"
+                      ]
+                    }
+                  },
+                  "corporateIdentityIcon": "sa-rp"
+                },
+                "stopStatus": "PLANNED",
+                "requestStop": false,
+                "arrival": {
+                  "timeAimed": "2023-12-18T13:41:00+01:00",
+                  "quayAimed": {
+                    "id": "8576646_B",
+                    "swissLocationId": "ch:1:sloid:76646:0:1",
+                    "name": "B"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "B"
+                },
+                "delayUndefined": false,
+                "routeIndex": 16,
+                "occupancyFirstClass": "UNKNOWN",
+                "occupancySecondClass": "UNKNOWN"
+              }
+            ],
+            "serviceProducts": [
+              {
+                "name": "T 8 2509",
+                "line": "8",
+                "lineId": "H_8_000827_",
+                "vehicleMode": {
+                  "id": "TRAMWAY",
+                  "name": "Tramway",
+                  "corporateIdentityIcon": "SBB_oev_b_t04",
+                  "vehicleSubModeName": "Tramway",
+                  "vehicleSubModeShortName": "T"
+                },
+                "number": "2509",
+                "numberFormatted": "2509",
+                "operator": {
+                  "id": "000827",
+                  "name": "St\u00e4dtische Verkehrsbetriebe Bern",
+                  "shortName": "SVB"
+                },
+                "routeIndexFrom": 3,
+                "routeIndexTo": 16
+              }
+            ],
+            "serviceAlteration": {
+              "cancelled": false,
+              "partiallyCancelled": false,
+              "reachable": true,
+              "redirected": false
+            },
+            "notices": [
+              {
+                "name": "NF",
+                "text": {
+                  "template": "Low-floor access",
+                  "arguments": {}
+                },
+                "type": "ATTRIBUTE",
+                "priority": 0,
+                "routeIndexFrom": 3,
+                "routeIndexTo": 16,
+                "advertised": true
+              },
+              {
+                "name": "VB",
+                "text": {
+                  "template": "BICYCLES: Limited number of places",
+                  "arguments": {}
+                },
+                "type": "ATTRIBUTE",
+                "priority": 6,
+                "routeIndexFrom": 3,
+                "routeIndexTo": 16,
+                "advertised": true
+              }
+            ],
+            "situations": [
+              {
+                "cause": "INFORMATION",
+                "broadcastMessages": [
+                  {
+                    "id": "78393",
+                    "alternateId": "ch:1:sstid:100626:64de114a8f22d82e1948e66a:_VP0_LINE",
+                    "priority": 60,
+                    "title": "Stop Bern, Bahnhof, stops A, B, C moved",
+                    "detail": "The stop Bern, Bahnhof, stops A, B, C has been moved.<br>This is due to a natural hazard.<br>The restriction lasts from 15.10.2023, 14:18 until 31.12.2023, 20:00.<br>Lines 7, 8 and 9 are affected.<br>Es kann l\u00e4ngere Umsteigezeiten geben..<br>Please observe the local signals.<br>The online timetable has been changed.",
+                    "detailShort": "Stop Bern, Bahnhof, stops A, B, C moved<br>Due to natural hazard",
+                    "distributionPeriod": {
+                      "startDate": "2023-10-15",
+                      "startTime": "14:18:00",
+                      "endDate": "2023-12-31",
+                      "endTime": "20:00:00",
+                      "dailyStartingAt": "00:00:00",
+                      "dailyDuration": "PT23H59M0S"
+                    },
+                    "audiences": [
+                      {
+                        "type": "B2C_TIMETABLE",
+                        "urls": [],
+                        "validFromDate": "2023-10-15",
+                        "validFromTime": "14:18:00",
+                        "validToDate": "2023-12-31",
+                        "validToTime": "20:00:00"
+                      }
+                    ],
+                    "links": {
+                      "detail": "https://fzf-i.app.sbb.ch/en/rti/78393"
+                    }
+                  }
+                ]
+              }
+            ],
+            "operatingPeriods": [],
+            "quayTypeName": "Stop",
+            "quayTypeShortName": "Stop",
+            "directions": [
+              {
+                "name": "Bern, Saali"
+              }
+            ]
+          }
+        },
+        {
+          "type": "AccessLeg",
+          "mode": "FOOT",
+          "id": "2",
+          "distance": 115,
+          "duration": "PT6M",
+          "start": {
+            "place": {
+              "type": "StopPlace",
+              "id": "8576646",
+              "name": "Bern, Bahnhof",
+              "canton": "BE",
+              "centroid": {
+                "type": "Point",
+                "coordinates": [
+                  7.44021,
+                  46.948106
+                ]
+              },
+              "tariffBorder": false,
+              "vehicleModes": [],
+              "links": {
+                "detail": "/v3/stop-places/8576646"
+              }
+            },
+            "timeAimed": "2023-12-18T13:41:00+01:00"
+          },
+          "end": {
+            "place": {
+              "type": "StopPlace",
+              "id": "8507000",
+              "name": "Bern",
+              "canton": "BE",
+              "centroid": {
+                "type": "Point",
+                "coordinates": [
+                  7.439122,
+                  46.948825
+                ]
+              },
+              "tariffBorder": false,
+              "vehicleModes": [],
+              "links": {
+                "detail": "/v3/stop-places/8507000"
+              }
+            },
+            "timeAimed": "2023-12-18T13:47:00+01:00"
+          }
+        }
+      ],
+      "status": {
+        "alternative": false,
+        "valid": true,
+        "cancelled": false,
+        "partiallyCancelled": false,
+        "quayChanged": false,
+        "delayed": false,
+        "delayedUnknown": false,
+        "reachable": true,
+        "notServicedStopPoints": false,
+        "unplannedStopPoints": false
+      },
+      "fastTransfer": false,
+      "transfers": 0,
+      "duration": "PT38M",
+      "pagingChecksum": "f0e18ab9_3",
+      "operatingPeriods": [
+        {
+          "daysIrregularFormatted": "11. Dec 2023 until 13. Dec 2024 Mo - Fr; not 25., 26. Dec 2023, 1., 2. Jan 2024, 29. Mar 2024, 1. Apr 2024, 9., 20. May 2024, 1. Aug 2024",
+          "operatingDays": [],
+          "name": "Trip"
+        }
+      ]
+    },
+    {
+      "id": "0-AZECgJWMRKpBcKswrZCQUlNwrZ0AQuYSEtJwrZHQEYkQT0yQE89NDYuOTU0MzIwLCA3LjM4MzY0MEBYPTczCQoMWT00NgkfkEB1PTBAYT0xMjhAJEE9MUBPPUJlcm4gQsO8bXBsaXogTm9yZEAFOQw5NzUzCTkQNDU4MzIFOSBMPTg1MDQ0ODkRQywyMDIzMTIxODEzMTIdDRgzNCQkJDEkBQEIwqdU_moAAWoZrSRAWD03NDM5MTMxDZ8MODgzNBmfCDcwMBXiGZ8EMzQdDTA0MCRTIDUxIDE2MTUxGakotkdQwrZmdEAwQDIBRDwxMjBALTFAMTAwQDFAQDBAAQEUZmFsc2VABRgFBRAtMUAkZjYDAAjCp2LuQwAJQwB0OlUAyGZAJMKnwrZLQ8K2I1ZFIzIjQ0YjMTAwI0NBIzAjQ00jMCNTSUNUIzEjQU0jMTE1NTA4MAEMIDIjMCNSVCM3IwE7DTwoMCNFUkcjMiNISU4BDCRDSyM1MzkzNTJ8HQcEODAFDgg4MHwBAgQ4NQUOIDQ3fDJ8MHwxOAUVFC0yMTQ3NEFfADgBXgBSEV8sMSMaxQEKOgoSCgc4SSzAEgdTVEFUSU9OEhkyMDIzLTEyLTE4VDEzOjM0OjAwKzAxOjAwIgdQTEFOTkVEKAEKHxU8BDk1FTwAIhUhAAIVXSHqFSEAGjpdAAQ0MEpdAFwDEhoIARADGgYwMDAwMzMiAVMqAjUxMgVFCTwqDlBVQkxJQ19KT1VSTkVZ",
+      "legs": [
+        {
+          "type": "AccessLeg",
+          "mode": "FOOT",
+          "id": "0",
+          "distance": 1668,
+          "duration": "PT22M",
+          "start": {
+            "place": {
+              "type": "Address",
+              "id": "A=2@O=46.954320, 7.383640@X=7383640@Y=46954320@",
+              "name": "46.954320, 7.383640",
+              "canton": "BE",
+              "centroid": {
+                "type": "Point",
+                "coordinates": [
+                  7.38364,
+                  46.95432
+                ]
+              }
+            },
+            "timeAimed": "2023-12-18T13:12:00+01:00"
+          },
+          "end": {
+            "place": {
+              "type": "StopPlace",
+              "id": "8504489",
+              "name": "Bern B\u00fcmpliz Nord",
+              "canton": "BE",
+              "centroid": {
+                "type": "Point",
+                "coordinates": [
+                  7.389744,
+                  46.945832
+                ]
+              },
+              "tariffBorder": false,
+              "vehicleModes": [],
+              "links": {
+                "detail": "/v3/stop-places/8504489"
+              }
+            },
+            "timeAimed": "2023-12-18T13:34:00+01:00"
+          }
+        },
+        {
+          "type": "PTRideLeg",
+          "mode": "TRAIN",
+          "id": "1",
+          "duration": "PT6M",
+          "serviceJourney": {
+            "id": "1|36197|5|95|18122023|C:B",
+            "stopPoints": [
+              {
+                "place": {
+                  "type": "StopPlace",
+                  "id": "8504489",
+                  "name": "Bern B\u00fcmpliz Nord",
+                  "canton": "BE",
+                  "centroid": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.389744,
+                      46.945832
+                    ]
+                  },
+                  "tariffBorder": false,
+                  "vehicleModes": [],
+                  "links": {
+                    "detail": "/v3/stop-places/8504489"
+                  }
+                },
+                "forBoarding": true,
+                "forAlighting": true,
+                "accessibilityBoardingAlighting": {
+                  "limitation": "BOARDING_ALIGHTING_BY_NOTIFICATION",
+                  "name": "Board/alight with staff assistance, register in advance",
+                  "description": "You require boarding/alighting assistance for this connection. Please register on swisspass.ch/handicap or with the Contact Center Handicap at least one hour before your train departs.",
+                  "assistanceService": {
+                    "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                    "arguments": {
+                      "PHONE": [
+                        "+41 800 007 102"
+                      ],
+                      "URL": [
+                        "sbb.ch/en/handicap"
+                      ]
+                    }
+                  },
+                  "corporateIdentityIcon": "sa-ra"
+                },
+                "stopStatus": "PLANNED",
+                "requestStop": false,
+                "departure": {
+                  "timeAimed": "2023-12-18T13:34:00+01:00",
+                  "quayAimed": {
+                    "id": "8504489_5",
+                    "swissLocationId": "ch:1:sloid:4489:0:366122",
+                    "name": "5"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "5"
+                },
+                "delayUndefined": false,
+                "routeIndex": 1,
+                "occupancyFirstClass": "LOW",
+                "occupancySecondClass": "LOW"
+              },
+              {
+                "place": {
+                  "type": "StopPlace",
+                  "id": "8504495",
+                  "name": "Bern St\u00f6ckacker",
+                  "canton": "BE",
+                  "centroid": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.40117,
+                      46.946353
+                    ]
+                  },
+                  "tariffBorder": false,
+                  "vehicleModes": [],
+                  "links": {
+                    "detail": "/v3/stop-places/8504495"
+                  }
+                },
+                "forBoarding": true,
+                "forAlighting": true,
+                "accessibilityBoardingAlighting": {
+                  "limitation": "NO_HINT",
+                  "name": "No information available",
+                  "description": "Reliable information cannot be provided for connections that are more than 21 days in the future. Please repeat your query at a later date.",
+                  "assistanceService": {
+                    "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                    "arguments": {
+                      "PHONE": [
+                        "+41 800 007 102"
+                      ],
+                      "URL": [
+                        "sbb.ch/en/handicap"
+                      ]
+                    }
+                  },
+                  "corporateIdentityIcon": "sa-ru"
+                },
+                "stopStatus": "PLANNED",
+                "requestStop": false,
+                "arrival": {
+                  "timeAimed": "2023-12-18T13:35:00+01:00",
+                  "quayAimed": {
+                    "id": "8504495_2",
+                    "swissLocationId": "ch:1:sloid:4495:0:358493",
+                    "name": "2"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "2"
+                },
+                "departure": {
+                  "timeAimed": "2023-12-18T13:35:00+01:00",
+                  "quayAimed": {
+                    "id": "8504495_2",
+                    "swissLocationId": "ch:1:sloid:4495:0:358493",
+                    "name": "2"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "2"
+                },
+                "delayUndefined": false,
+                "routeIndex": 2,
+                "occupancyFirstClass": "LOW",
+                "occupancySecondClass": "LOW"
+              },
+              {
+                "place": {
+                  "type": "StopPlace",
+                  "id": "8507000",
+                  "name": "Bern",
+                  "canton": "BE",
+                  "centroid": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.439122,
+                      46.948825
+                    ]
+                  },
+                  "tariffBorder": false,
+                  "vehicleModes": [],
+                  "links": {
+                    "detail": "/v3/stop-places/8507000"
+                  }
+                },
+                "forBoarding": true,
+                "forAlighting": true,
+                "accessibilityBoardingAlighting": {
+                  "limitation": "BOARDING_ALIGHTING_BY_NOTIFICATION",
+                  "name": "Board/alight with staff assistance, register in advance",
+                  "description": "You require boarding/alighting assistance for this connection. Please register on swisspass.ch/handicap or with the Contact Center Handicap at least one hour before your train departs.",
+                  "assistanceService": {
+                    "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                    "arguments": {
+                      "PHONE": [
+                        "+41 800 007 102"
+                      ],
+                      "URL": [
+                        "sbb.ch/en/handicap"
+                      ]
+                    }
+                  },
+                  "corporateIdentityIcon": "sa-ra"
+                },
+                "stopStatus": "PLANNED",
+                "requestStop": false,
+                "arrival": {
+                  "timeAimed": "2023-12-18T13:40:00+01:00",
+                  "quayAimed": {
+                    "id": "8507000_13D-F",
+                    "swissLocationId": "ch:1:sloid:7000:6:33",
+                    "name": "13D-F"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "13D-F"
+                },
+                "delayUndefined": false,
+                "routeIndex": 3,
+                "occupancyFirstClass": "UNKNOWN",
+                "occupancySecondClass": "UNKNOWN"
+              }
+            ],
+            "serviceProducts": [
+              {
+                "name": "S 51 16151",
+                "line": "51",
+                "lineId": "H_51_000033_",
+                "vehicleMode": {
+                  "id": "TRAIN",
+                  "name": "Train",
+                  "corporateIdentityIcon": "SBB_oev_b_t02",
+                  "vehicleSubModeName": "Urban train",
+                  "vehicleSubModeShortName": "S"
+                },
+                "number": "16151",
+                "numberFormatted": "16151",
+                "operator": {
+                  "id": "000033",
+                  "name": "BLS AG (bls)",
+                  "shortName": "BLS"
+                },
+                "routeIndexFrom": 1,
+                "routeIndexTo": 3
+              }
+            ],
+            "serviceAlteration": {
+              "cancelled": false,
+              "partiallyCancelled": false,
+              "reachable": true,
+              "redirected": false
+            },
+            "notices": [
+              {
+                "name": "JY",
+                "text": {
+                  "template": "ch:1:sjyid:100015:16151-001",
+                  "arguments": {}
+                },
+                "type": "INFO",
+                "priority": 100,
+                "routeIndexFrom": 1,
+                "routeIndexTo": 3,
+                "advertised": false
+              }
+            ],
+            "situations": [],
+            "operatingPeriods": [],
+            "quayTypeName": "Platform",
+            "quayTypeShortName": "Pl.",
+            "directions": [
+              {
+                "name": "Bern"
+              }
+            ]
+          }
+        }
+      ],
+      "status": {
+        "alternative": false,
+        "valid": true,
+        "cancelled": false,
+        "partiallyCancelled": false,
+        "quayChanged": false,
+        "delayed": false,
+        "delayedUnknown": false,
+        "reachable": true,
+        "notServicedStopPoints": false,
+        "unplannedStopPoints": false
+      },
+      "fastTransfer": false,
+      "transfers": 0,
+      "duration": "PT28M",
+      "pagingChecksum": "d3e0d8b3_3",
+      "operatingPeriods": [
+        {
+          "daysIrregularFormatted": "10. Dec 2023 until 14. Dec 2024 daily",
+          "operatingDays": [],
+          "name": "Trip"
+        }
+      ]
+    },
+    {
+      "id": "mgtECgJWMRLiBsKswrZCQUlNwrZ0AQuYSEtJwrZHQEYkQT0yQE89NDYuOTU0MzIwLCA3LjM4MzY0MEBYPTczCQoMWT00Ngkf4EB1PTBAYT0xMjhAJEE9MUBPPUJldGhsZWhlbSBiLiBCZXJuLCBIb2xlbmFja2VyQFg9NzM4MjQ2MwlEEDQ4NjU1BUQgTD04NTcxNDM1EU4sMjAyMzEyMTgxMzE2HQ0YMzAkJCQxJAUBCMKnVP51ADp1ABHDAbYYQmFobmhvZgGzFDQ0MDIxMBGzCDEwNhmzDDY2NDZGswAEMzAdsyg0OCRUIDggMjUxMR27AFf6bQAZqwWiEDM5MTMxEaIIODM0FaIMMDcwMDWjOVUENDgdDQQ1ND1VKLZHUMK2ZnRAMEAyATo8MTIwQC0xQDEwMEAxQEAwQAEBFGZhbHNlQAUYBQUQLTFAJGY2AwAIwqdi7kMACUMAdDpVAMhmQCTCp8K2S0PCtiNWRSMyI0NGIzEwMCNDQSMwI0NNIzAjU0lDVCMxI0FNIzExNTUwODABDCAyIzAjUlQjNyMBOw08NDAjRVJHIzgxOTUjSElOAQ8kQ0sjNTM5MzY0fAEHBDU2BQcEOTIJBxw0fDB8MHw4NQUOHDUzfDN8MHwyBRQULTIxNDc0YRgAOAFgAFIRYTAxIxquBAo6ChIKBzg1RdrAEgdTVEFUSU9OEhkyMDIzLTEyLTE4VDEzOjMwOjAwKzAxOjAwIgdQTEFOTkVEKAMKHwk8EDkwMDQ2FTwAIhUhAAQRIRA3MTM0NEohAAAFESEQMDc5OTNKIQAABhEhAWNOIQAABxEhEDc5ODk4SkIAAAgRIRA4MDkzOUohAAAJESEMOTAwMDkCGcYACh0hBDQySkIAAAsuIQAAMUohAAAMHSEAME6EAAANESEBxgA3SkIAAA4uIQBOawEADzXIYe8VQgAaOsgBBDQ4SsgBWBASGAgDEBAaBjAwMDgyNyIBVCoBODIEgQ48Kg5QVUJMSUNfSk9VUk5FWQ",
+      "legs": [
+        {
+          "type": "AccessLeg",
+          "mode": "FOOT",
+          "id": "0",
+          "distance": 1009,
+          "duration": "PT14M",
+          "start": {
+            "place": {
+              "type": "Address",
+              "id": "A=2@O=46.954320, 7.383640@X=7383640@Y=46954320@",
+              "name": "46.954320, 7.383640",
+              "canton": "BE",
+              "centroid": {
+                "type": "Point",
+                "coordinates": [
+                  7.38364,
+                  46.95432
+                ]
+              }
+            },
+            "timeAimed": "2023-12-18T13:16:00+01:00"
+          },
+          "end": {
+            "place": {
+              "type": "StopPlace",
+              "id": "8571435",
+              "name": "Bethlehem b. Bern, Holenacker",
+              "canton": "BE",
+              "centroid": {
+                "type": "Point",
+                "coordinates": [
+                  7.382463,
+                  46.948655
+                ]
+              },
+              "tariffBorder": false,
+              "vehicleModes": [],
+              "links": {
+                "detail": "/v3/stop-places/8571435"
+              }
+            },
+            "timeAimed": "2023-12-18T13:30:00+01:00"
+          }
+        },
+        {
+          "type": "PTRideLeg",
+          "mode": "TRAMWAY",
+          "id": "1",
+          "duration": "PT18M",
+          "serviceJourney": {
+            "id": "1|88215|1|95|18122023|C:B",
+            "stopPoints": [
+              {
+                "place": {
+                  "type": "StopPlace",
+                  "id": "8571435",
+                  "name": "Bethlehem b. Bern, Holenacker",
+                  "canton": "BE",
+                  "centroid": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.382463,
+                      46.948655
+                    ]
+                  },
+                  "tariffBorder": false,
+                  "vehicleModes": [],
+                  "links": {
+                    "detail": "/v3/stop-places/8571435"
+                  }
+                },
+                "forBoarding": true,
+                "forAlighting": true,
+                "accessibilityBoardingAlighting": {
+                  "limitation": "BOARDING_ALIGHTING_BY_CREW",
+                  "name": "Board/alight with train crew assistance",
+                  "description": "Please contact the transport or service staff directly to request assistance.",
+                  "assistanceService": {
+                    "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                    "arguments": {
+                      "PHONE": [
+                        "+41 800 007 102"
+                      ],
+                      "URL": [
+                        "sbb.ch/en/handicap"
+                      ]
+                    }
+                  },
+                  "corporateIdentityIcon": "sa-rp"
+                },
+                "stopStatus": "PLANNED",
+                "requestStop": false,
+                "departure": {
+                  "timeAimed": "2023-12-18T13:30:00+01:00",
+                  "quayAimed": {
+                    "id": "8571435_$$2",
+                    "swissLocationId": "ch:1:sloid:71435:0:16",
+                    "name": "$$2"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "$$2"
+                },
+                "delayUndefined": false,
+                "routeIndex": 3,
+                "occupancyFirstClass": "UNKNOWN",
+                "occupancySecondClass": "UNKNOWN"
+              },
+              {
+                "place": {
+                  "type": "StopPlace",
+                  "id": "8590046",
+                  "name": "Bern, Tscharnergut",
+                  "canton": "BE",
+                  "centroid": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.388306,
+                      46.948906
+                    ]
+                  },
+                  "tariffBorder": false,
+                  "vehicleModes": [],
+                  "links": {
+                    "detail": "/v3/stop-places/8590046"
+                  }
+                },
+                "forBoarding": true,
+                "forAlighting": true,
+                "accessibilityBoardingAlighting": {
+                  "limitation": "BOARDING_ALIGHTING_SELF",
+                  "name": "Independent boarding/alighting",
+                  "description": "You can board and alight independently on this connection.",
+                  "assistanceService": {
+                    "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                    "arguments": {
+                      "PHONE": [
+                        "+41 800 007 102"
+                      ],
+                      "URL": [
+                        "sbb.ch/en/handicap"
+                      ]
+                    }
+                  },
+                  "corporateIdentityIcon": "sa-rs"
+                },
+                "stopStatus": "PLANNED",
+                "requestStop": false,
+                "arrival": {
+                  "timeAimed": "2023-12-18T13:32:00+01:00",
+                  "quayAimed": {
+                    "id": "8590046_$$3",
+                    "swissLocationId": "ch:1:sloid:90046:0:16",
+                    "name": "$$3"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "$$3"
+                },
+                "departure": {
+                  "timeAimed": "2023-12-18T13:32:00+01:00",
+                  "quayAimed": {
+                    "id": "8590046_$$3",
+                    "swissLocationId": "ch:1:sloid:90046:0:16",
+                    "name": "$$3"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "$$3"
+                },
+                "delayUndefined": false,
+                "routeIndex": 4,
+                "occupancyFirstClass": "UNKNOWN",
+                "occupancySecondClass": "UNKNOWN"
+              },
+              {
+                "place": {
+                  "type": "StopPlace",
+                  "id": "8571344",
+                  "name": "Bethlehem b. Bern, Kirche",
+                  "canton": "BE",
+                  "centroid": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.394185,
+                      46.94923
+                    ]
+                  },
+                  "tariffBorder": false,
+                  "vehicleModes": [],
+                  "links": {
+                    "detail": "/v3/stop-places/8571344"
+                  }
+                },
+                "forBoarding": true,
+                "forAlighting": true,
+                "accessibilityBoardingAlighting": {
+                  "limitation": "BOARDING_ALIGHTING_SHUTTLE_TRANSPORT",
+                  "name": "By shuttle to the accessible stop, register in advance",
+                  "description": "You will need a shuttle for this connection. Please register with the Contact Center Handicap at least two hours before your train departs.",
+                  "assistanceService": {
+                    "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                    "arguments": {
+                      "PHONE": [
+                        "+41 800 007 102"
+                      ],
+                      "URL": [
+                        "sbb.ch/en/handicap"
+                      ]
+                    }
+                  },
+                  "corporateIdentityIcon": "sa-wt"
+                },
+                "stopStatus": "PLANNED",
+                "requestStop": false,
+                "arrival": {
+                  "timeAimed": "2023-12-18T13:33:00+01:00",
+                  "quayChanged": false
+                },
+                "departure": {
+                  "timeAimed": "2023-12-18T13:33:00+01:00",
+                  "quayChanged": false
+                },
+                "delayUndefined": false,
+                "routeIndex": 5,
+                "occupancyFirstClass": "UNKNOWN",
+                "occupancySecondClass": "UNKNOWN"
+              },
+              {
+                "place": {
+                  "type": "StopPlace",
+                  "id": "8507993",
+                  "name": "Bethlehem b. Bern, S\u00e4ge",
+                  "canton": "BE",
+                  "centroid": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.395093,
+                      46.947396
+                    ]
+                  },
+                  "tariffBorder": false,
+                  "vehicleModes": [],
+                  "links": {
+                    "detail": "/v3/stop-places/8507993"
+                  }
+                },
+                "forBoarding": true,
+                "forAlighting": true,
+                "accessibilityBoardingAlighting": {
+                  "limitation": "BOARDING_ALIGHTING_BY_CREW",
+                  "name": "Board/alight with train crew assistance",
+                  "description": "Please contact the transport or service staff directly to request assistance.",
+                  "assistanceService": {
+                    "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                    "arguments": {
+                      "PHONE": [
+                        "+41 800 007 102"
+                      ],
+                      "URL": [
+                        "sbb.ch/en/handicap"
+                      ]
+                    }
+                  },
+                  "corporateIdentityIcon": "sa-rp"
+                },
+                "stopStatus": "PLANNED",
+                "requestStop": false,
+                "arrival": {
+                  "timeAimed": "2023-12-18T13:34:00+01:00",
+                  "quayAimed": {
+                    "id": "8507993_$$2",
+                    "swissLocationId": "ch:1:sloid:7993:0:16",
+                    "name": "$$2"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "$$2"
+                },
+                "departure": {
+                  "timeAimed": "2023-12-18T13:34:00+01:00",
+                  "quayAimed": {
+                    "id": "8507993_$$2",
+                    "swissLocationId": "ch:1:sloid:7993:0:16",
+                    "name": "$$2"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "$$2"
+                },
+                "delayUndefined": false,
+                "routeIndex": 6,
+                "occupancyFirstClass": "UNKNOWN",
+                "occupancySecondClass": "UNKNOWN"
+              },
+              {
+                "place": {
+                  "type": "StopPlace",
+                  "id": "8590043",
+                  "name": "Bern, St\u00f6ckacker (Tram)",
+                  "canton": "BE",
+                  "centroid": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.399003,
+                      46.944672
+                    ]
+                  },
+                  "tariffBorder": false,
+                  "vehicleModes": [],
+                  "links": {
+                    "detail": "/v3/stop-places/8590043"
+                  }
+                },
+                "forBoarding": true,
+                "forAlighting": true,
+                "accessibilityBoardingAlighting": {
+                  "limitation": "BOARDING_ALIGHTING_BY_CREW",
+                  "name": "Board/alight with train crew assistance",
+                  "description": "Please contact the transport or service staff directly to request assistance.",
+                  "assistanceService": {
+                    "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                    "arguments": {
+                      "PHONE": [
+                        "+41 800 007 102"
+                      ],
+                      "URL": [
+                        "sbb.ch/en/handicap"
+                      ]
+                    }
+                  },
+                  "corporateIdentityIcon": "sa-rp"
+                },
+                "stopStatus": "PLANNED",
+                "requestStop": false,
+                "arrival": {
+                  "timeAimed": "2023-12-18T13:35:00+01:00",
+                  "quayAimed": {
+                    "id": "8590043_$$2",
+                    "swissLocationId": "ch:1:sloid:90043:0:16",
+                    "name": "$$2"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "$$2"
+                },
+                "departure": {
+                  "timeAimed": "2023-12-18T13:35:00+01:00",
+                  "quayAimed": {
+                    "id": "8590043_$$2",
+                    "swissLocationId": "ch:1:sloid:90043:0:16",
+                    "name": "$$2"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "$$2"
+                },
+                "delayUndefined": false,
+                "routeIndex": 7,
+                "occupancyFirstClass": "UNKNOWN",
+                "occupancySecondClass": "UNKNOWN"
+              },
+              {
+                "place": {
+                  "type": "StopPlace",
+                  "id": "8579898",
+                  "name": "B\u00fcmpliz, Unterf\u00fchrung",
+                  "canton": "BE",
+                  "centroid": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.400702,
+                      46.942191
+                    ]
+                  },
+                  "tariffBorder": false,
+                  "vehicleModes": [],
+                  "links": {
+                    "detail": "/v3/stop-places/8579898"
+                  }
+                },
+                "forBoarding": true,
+                "forAlighting": true,
+                "accessibilityBoardingAlighting": {
+                  "limitation": "BOARDING_ALIGHTING_BY_CREW",
+                  "name": "Board/alight with train crew assistance",
+                  "description": "Please contact the transport or service staff directly to request assistance.",
+                  "assistanceService": {
+                    "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                    "arguments": {
+                      "PHONE": [
+                        "+41 800 007 102"
+                      ],
+                      "URL": [
+                        "sbb.ch/en/handicap"
+                      ]
+                    }
+                  },
+                  "corporateIdentityIcon": "sa-rp"
+                },
+                "stopStatus": "PLANNED",
+                "requestStop": false,
+                "arrival": {
+                  "timeAimed": "2023-12-18T13:36:00+01:00",
+                  "quayAimed": {
+                    "id": "8579898_A",
+                    "swissLocationId": "ch:1:sloid:79898:0:18",
+                    "name": "A"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "A"
+                },
+                "departure": {
+                  "timeAimed": "2023-12-18T13:36:00+01:00",
+                  "quayAimed": {
+                    "id": "8579898_A",
+                    "swissLocationId": "ch:1:sloid:79898:0:18",
+                    "name": "A"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "A"
+                },
+                "delayUndefined": false,
+                "routeIndex": 8,
+                "occupancyFirstClass": "UNKNOWN",
+                "occupancySecondClass": "UNKNOWN"
+              },
+              {
+                "place": {
+                  "type": "StopPlace",
+                  "id": "8580939",
+                  "name": "Bern Europaplatz, Bahnhof",
+                  "canton": "BE",
+                  "centroid": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.406311,
+                      46.943252
+                    ]
+                  },
+                  "tariffBorder": false,
+                  "vehicleModes": [],
+                  "links": {
+                    "detail": "/v3/stop-places/8580939"
+                  }
+                },
+                "forBoarding": true,
+                "forAlighting": true,
+                "accessibilityBoardingAlighting": {
+                  "limitation": "BOARDING_ALIGHTING_SELF",
+                  "name": "Independent boarding/alighting",
+                  "description": "You can board and alight independently on this connection.",
+                  "assistanceService": {
+                    "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                    "arguments": {
+                      "PHONE": [
+                        "+41 800 007 102"
+                      ],
+                      "URL": [
+                        "sbb.ch/en/handicap"
+                      ]
+                    }
+                  },
+                  "corporateIdentityIcon": "sa-rs"
+                },
+                "stopStatus": "PLANNED",
+                "requestStop": false,
+                "arrival": {
+                  "timeAimed": "2023-12-18T13:38:00+01:00",
+                  "quayAimed": {
+                    "id": "8580939_A",
+                    "swissLocationId": "ch:1:sloid:80939:0:16",
+                    "name": "A"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "A"
+                },
+                "departure": {
+                  "timeAimed": "2023-12-18T13:38:00+01:00",
+                  "quayAimed": {
+                    "id": "8580939_A",
+                    "swissLocationId": "ch:1:sloid:80939:0:16",
+                    "name": "A"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "A"
+                },
+                "delayUndefined": false,
+                "routeIndex": 9,
+                "occupancyFirstClass": "UNKNOWN",
+                "occupancySecondClass": "UNKNOWN"
+              },
+              {
+                "place": {
+                  "type": "StopPlace",
+                  "id": "8590005",
+                  "name": "Bern, Steigerhubel",
+                  "canton": "BE",
+                  "centroid": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.411669,
+                      46.943935
+                    ]
+                  },
+                  "tariffBorder": false,
+                  "vehicleModes": [],
+                  "links": {
+                    "detail": "/v3/stop-places/8590005"
+                  }
+                },
+                "forBoarding": true,
+                "forAlighting": true,
+                "accessibilityBoardingAlighting": {
+                  "limitation": "BOARDING_ALIGHTING_BY_CREW",
+                  "name": "Board/alight with train crew assistance",
+                  "description": "Please contact the transport or service staff directly to request assistance.",
+                  "assistanceService": {
+                    "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                    "arguments": {
+                      "PHONE": [
+                        "+41 800 007 102"
+                      ],
+                      "URL": [
+                        "sbb.ch/en/handicap"
+                      ]
+                    }
+                  },
+                  "corporateIdentityIcon": "sa-rp"
+                },
+                "stopStatus": "PLANNED",
+                "requestStop": false,
+                "arrival": {
+                  "timeAimed": "2023-12-18T13:39:00+01:00",
+                  "quayAimed": {
+                    "id": "8590005_$$2",
+                    "swissLocationId": "ch:1:sloid:90005:0:16",
+                    "name": "$$2"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "$$2"
+                },
+                "departure": {
+                  "timeAimed": "2023-12-18T13:39:00+01:00",
+                  "quayAimed": {
+                    "id": "8590005_$$2",
+                    "swissLocationId": "ch:1:sloid:90005:0:16",
+                    "name": "$$2"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "$$2"
+                },
+                "delayUndefined": false,
+                "routeIndex": 10,
+                "occupancyFirstClass": "UNKNOWN",
+                "occupancySecondClass": "UNKNOWN"
+              },
+              {
+                "place": {
+                  "type": "StopPlace",
+                  "id": "8590042",
+                  "name": "Bern, Schlossmatte",
+                  "canton": "BE",
+                  "centroid": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.414995,
+                      46.944169
+                    ]
+                  },
+                  "tariffBorder": false,
+                  "vehicleModes": [],
+                  "links": {
+                    "detail": "/v3/stop-places/8590042"
+                  }
+                },
+                "forBoarding": true,
+                "forAlighting": true,
+                "accessibilityBoardingAlighting": {
+                  "limitation": "BOARDING_ALIGHTING_BY_CREW",
+                  "name": "Board/alight with train crew assistance",
+                  "description": "Please contact the transport or service staff directly to request assistance.",
+                  "assistanceService": {
+                    "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                    "arguments": {
+                      "PHONE": [
+                        "+41 800 007 102"
+                      ],
+                      "URL": [
+                        "sbb.ch/en/handicap"
+                      ]
+                    }
+                  },
+                  "corporateIdentityIcon": "sa-rp"
+                },
+                "stopStatus": "PLANNED",
+                "requestStop": false,
+                "arrival": {
+                  "timeAimed": "2023-12-18T13:40:00+01:00",
+                  "quayAimed": {
+                    "id": "8590042_$$2",
+                    "swissLocationId": "ch:1:sloid:90042:0:16",
+                    "name": "$$2"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "$$2"
+                },
+                "departure": {
+                  "timeAimed": "2023-12-18T13:40:00+01:00",
+                  "quayAimed": {
+                    "id": "8590042_$$2",
+                    "swissLocationId": "ch:1:sloid:90042:0:16",
+                    "name": "$$2"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "$$2"
+                },
+                "delayUndefined": false,
+                "routeIndex": 11,
+                "occupancyFirstClass": "UNKNOWN",
+                "occupancySecondClass": "UNKNOWN"
+              },
+              {
+                "place": {
+                  "type": "StopPlace",
+                  "id": "8590041",
+                  "name": "Bern, Loryplatz",
+                  "canton": "BE",
+                  "centroid": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.421296,
+                      46.944439
+                    ]
+                  },
+                  "tariffBorder": false,
+                  "vehicleModes": [],
+                  "links": {
+                    "detail": "/v3/stop-places/8590041"
+                  }
+                },
+                "forBoarding": true,
+                "forAlighting": true,
+                "accessibilityBoardingAlighting": {
+                  "limitation": "BOARDING_ALIGHTING_SELF",
+                  "name": "Independent boarding/alighting",
+                  "description": "You can board and alight independently on this connection.",
+                  "assistanceService": {
+                    "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                    "arguments": {
+                      "PHONE": [
+                        "+41 800 007 102"
+                      ],
+                      "URL": [
+                        "sbb.ch/en/handicap"
+                      ]
+                    }
+                  },
+                  "corporateIdentityIcon": "sa-rs"
+                },
+                "stopStatus": "PLANNED",
+                "requestStop": false,
+                "arrival": {
+                  "timeAimed": "2023-12-18T13:42:00+01:00",
+                  "quayAimed": {
+                    "id": "8590041_A",
+                    "swissLocationId": "ch:1:sloid:90041:0:16",
+                    "name": "A"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "A"
+                },
+                "departure": {
+                  "timeAimed": "2023-12-18T13:42:00+01:00",
+                  "quayAimed": {
+                    "id": "8590041_A",
+                    "swissLocationId": "ch:1:sloid:90041:0:16",
+                    "name": "A"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "A"
+                },
+                "delayUndefined": false,
+                "routeIndex": 12,
+                "occupancyFirstClass": "UNKNOWN",
+                "occupancySecondClass": "UNKNOWN"
+              },
+              {
+                "place": {
+                  "type": "StopPlace",
+                  "id": "8590009",
+                  "name": "Bern, Kaufm\u00e4nnischer Verband",
+                  "canton": "BE",
+                  "centroid": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.427472,
+                      46.945688
+                    ]
+                  },
+                  "tariffBorder": false,
+                  "vehicleModes": [],
+                  "links": {
+                    "detail": "/v3/stop-places/8590009"
+                  }
+                },
+                "forBoarding": true,
+                "forAlighting": true,
+                "accessibilityBoardingAlighting": {
+                  "limitation": "BOARDING_ALIGHTING_BY_CREW",
+                  "name": "Board/alight with train crew assistance",
+                  "description": "Please contact the transport or service staff directly to request assistance.",
+                  "assistanceService": {
+                    "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                    "arguments": {
+                      "PHONE": [
+                        "+41 800 007 102"
+                      ],
+                      "URL": [
+                        "sbb.ch/en/handicap"
+                      ]
+                    }
+                  },
+                  "corporateIdentityIcon": "sa-rp"
+                },
+                "stopStatus": "PLANNED",
+                "requestStop": false,
+                "arrival": {
+                  "timeAimed": "2023-12-18T13:44:00+01:00",
+                  "quayAimed": {
+                    "id": "8590009_$$2",
+                    "swissLocationId": "ch:1:sloid:90009:0:16",
+                    "name": "$$2"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "$$2"
+                },
+                "departure": {
+                  "timeAimed": "2023-12-18T13:44:00+01:00",
+                  "quayAimed": {
+                    "id": "8590009_$$2",
+                    "swissLocationId": "ch:1:sloid:90009:0:16",
+                    "name": "$$2"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "$$2"
+                },
+                "delayUndefined": false,
+                "routeIndex": 13,
+                "occupancyFirstClass": "UNKNOWN",
+                "occupancySecondClass": "UNKNOWN"
+              },
+              {
+                "place": {
+                  "type": "StopPlace",
+                  "id": "8579897",
+                  "name": "Bern, Kocherpark",
+                  "canton": "BE",
+                  "centroid": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.434052,
+                      46.945886
+                    ]
+                  },
+                  "tariffBorder": false,
+                  "vehicleModes": [],
+                  "links": {
+                    "detail": "/v3/stop-places/8579897"
+                  }
+                },
+                "forBoarding": true,
+                "forAlighting": true,
+                "accessibilityBoardingAlighting": {
+                  "limitation": "BOARDING_ALIGHTING_NOT_POSSIBLE",
+                  "name": "Connection not wheelchair accessible",
+                  "description": "This connection is not wheelchair accessible. There may be an accessible boarding/alighting location nearby. Obtain information from the Contact Center Handicap.",
+                  "assistanceService": {
+                    "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                    "arguments": {
+                      "PHONE": [
+                        "+41 800 007 102"
+                      ],
+                      "URL": [
+                        "sbb.ch/en/handicap"
+                      ]
+                    }
+                  },
+                  "corporateIdentityIcon": "sa-rn"
+                },
+                "stopStatus": "PLANNED",
+                "requestStop": false,
+                "arrival": {
+                  "timeAimed": "2023-12-18T13:45:00+01:00",
+                  "quayAimed": {
+                    "id": "8579897_A",
+                    "swissLocationId": "ch:1:sloid:79897:0:2",
+                    "name": "A"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "A"
+                },
+                "departure": {
+                  "timeAimed": "2023-12-18T13:45:00+01:00",
+                  "quayAimed": {
+                    "id": "8579897_A",
+                    "swissLocationId": "ch:1:sloid:79897:0:2",
+                    "name": "A"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "A"
+                },
+                "delayUndefined": false,
+                "routeIndex": 14,
+                "occupancyFirstClass": "UNKNOWN",
+                "occupancySecondClass": "UNKNOWN"
+              },
+              {
+                "place": {
+                  "type": "StopPlace",
+                  "id": "8579896",
+                  "name": "Bern, Hirschengraben",
+                  "canton": "BE",
+                  "centroid": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.437783,
+                      46.946066
+                    ]
+                  },
+                  "tariffBorder": false,
+                  "vehicleModes": [],
+                  "links": {
+                    "detail": "/v3/stop-places/8579896"
+                  }
+                },
+                "forBoarding": true,
+                "forAlighting": true,
+                "accessibilityBoardingAlighting": {
+                  "limitation": "BOARDING_ALIGHTING_BY_CREW",
+                  "name": "Board/alight with train crew assistance",
+                  "description": "Please contact the transport or service staff directly to request assistance.",
+                  "assistanceService": {
+                    "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                    "arguments": {
+                      "PHONE": [
+                        "+41 800 007 102"
+                      ],
+                      "URL": [
+                        "sbb.ch/en/handicap"
+                      ]
+                    }
+                  },
+                  "corporateIdentityIcon": "sa-rp"
+                },
+                "stopStatus": "PLANNED",
+                "requestStop": false,
+                "arrival": {
+                  "timeAimed": "2023-12-18T13:47:00+01:00",
+                  "quayAimed": {
+                    "id": "8579896_B",
+                    "swissLocationId": "ch:1:sloid:79896:0:2",
+                    "name": "B"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "B"
+                },
+                "departure": {
+                  "timeAimed": "2023-12-18T13:47:00+01:00",
+                  "quayAimed": {
+                    "id": "8579896_B",
+                    "swissLocationId": "ch:1:sloid:79896:0:2",
+                    "name": "B"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "B"
+                },
+                "delayUndefined": false,
+                "routeIndex": 15,
+                "occupancyFirstClass": "UNKNOWN",
+                "occupancySecondClass": "UNKNOWN"
+              },
+              {
+                "place": {
+                  "type": "StopPlace",
+                  "id": "8576646",
+                  "name": "Bern, Bahnhof",
+                  "canton": "BE",
+                  "centroid": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.44021,
+                      46.948106
+                    ]
+                  },
+                  "tariffBorder": false,
+                  "vehicleModes": [],
+                  "links": {
+                    "detail": "/v3/stop-places/8576646"
+                  }
+                },
+                "forBoarding": true,
+                "forAlighting": true,
+                "accessibilityBoardingAlighting": {
+                  "limitation": "BOARDING_ALIGHTING_BY_CREW",
+                  "name": "Board/alight with train crew assistance",
+                  "description": "Please contact the transport or service staff directly to request assistance.",
+                  "assistanceService": {
+                    "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                    "arguments": {
+                      "PHONE": [
+                        "+41 800 007 102"
+                      ],
+                      "URL": [
+                        "sbb.ch/en/handicap"
+                      ]
+                    }
+                  },
+                  "corporateIdentityIcon": "sa-rp"
+                },
+                "stopStatus": "PLANNED",
+                "requestStop": false,
+                "arrival": {
+                  "timeAimed": "2023-12-18T13:48:00+01:00",
+                  "quayAimed": {
+                    "id": "8576646_B",
+                    "swissLocationId": "ch:1:sloid:76646:0:1",
+                    "name": "B"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "B"
+                },
+                "delayUndefined": false,
+                "routeIndex": 16,
+                "occupancyFirstClass": "UNKNOWN",
+                "occupancySecondClass": "UNKNOWN"
+              }
+            ],
+            "serviceProducts": [
+              {
+                "name": "T 8 2511",
+                "line": "8",
+                "lineId": "H_8_000827_",
+                "vehicleMode": {
+                  "id": "TRAMWAY",
+                  "name": "Tramway",
+                  "corporateIdentityIcon": "SBB_oev_b_t04",
+                  "vehicleSubModeName": "Tramway",
+                  "vehicleSubModeShortName": "T"
+                },
+                "number": "2511",
+                "numberFormatted": "2511",
+                "operator": {
+                  "id": "000827",
+                  "name": "St\u00e4dtische Verkehrsbetriebe Bern",
+                  "shortName": "SVB"
+                },
+                "routeIndexFrom": 3,
+                "routeIndexTo": 16
+              }
+            ],
+            "serviceAlteration": {
+              "cancelled": false,
+              "partiallyCancelled": false,
+              "reachable": true,
+              "redirected": false
+            },
+            "notices": [
+              {
+                "name": "NF",
+                "text": {
+                  "template": "Low-floor access",
+                  "arguments": {}
+                },
+                "type": "ATTRIBUTE",
+                "priority": 0,
+                "routeIndexFrom": 3,
+                "routeIndexTo": 16,
+                "advertised": true
+              },
+              {
+                "name": "VB",
+                "text": {
+                  "template": "BICYCLES: Limited number of places",
+                  "arguments": {}
+                },
+                "type": "ATTRIBUTE",
+                "priority": 6,
+                "routeIndexFrom": 3,
+                "routeIndexTo": 16,
+                "advertised": true
+              }
+            ],
+            "situations": [
+              {
+                "cause": "INFORMATION",
+                "broadcastMessages": [
+                  {
+                    "id": "78393",
+                    "alternateId": "ch:1:sstid:100626:64de114a8f22d82e1948e66a:_VP0_LINE",
+                    "priority": 60,
+                    "title": "Stop Bern, Bahnhof, stops A, B, C moved",
+                    "detail": "The stop Bern, Bahnhof, stops A, B, C has been moved.<br>This is due to a natural hazard.<br>The restriction lasts from 15.10.2023, 14:18 until 31.12.2023, 20:00.<br>Lines 7, 8 and 9 are affected.<br>Es kann l\u00e4ngere Umsteigezeiten geben..<br>Please observe the local signals.<br>The online timetable has been changed.",
+                    "detailShort": "Stop Bern, Bahnhof, stops A, B, C moved<br>Due to natural hazard",
+                    "distributionPeriod": {
+                      "startDate": "2023-10-15",
+                      "startTime": "14:18:00",
+                      "endDate": "2023-12-31",
+                      "endTime": "20:00:00",
+                      "dailyStartingAt": "00:00:00",
+                      "dailyDuration": "PT23H59M0S"
+                    },
+                    "audiences": [
+                      {
+                        "type": "B2C_TIMETABLE",
+                        "urls": [],
+                        "validFromDate": "2023-10-15",
+                        "validFromTime": "14:18:00",
+                        "validToDate": "2023-12-31",
+                        "validToTime": "20:00:00"
+                      }
+                    ],
+                    "links": {
+                      "detail": "https://fzf-i.app.sbb.ch/en/rti/78393"
+                    }
+                  }
+                ]
+              }
+            ],
+            "operatingPeriods": [],
+            "quayTypeName": "Stop",
+            "quayTypeShortName": "Stop",
+            "directions": [
+              {
+                "name": "Bern, Saali"
+              }
+            ]
+          }
+        },
+        {
+          "type": "AccessLeg",
+          "mode": "FOOT",
+          "id": "2",
+          "distance": 115,
+          "duration": "PT6M",
+          "start": {
+            "place": {
+              "type": "StopPlace",
+              "id": "8576646",
+              "name": "Bern, Bahnhof",
+              "canton": "BE",
+              "centroid": {
+                "type": "Point",
+                "coordinates": [
+                  7.44021,
+                  46.948106
+                ]
+              },
+              "tariffBorder": false,
+              "vehicleModes": [],
+              "links": {
+                "detail": "/v3/stop-places/8576646"
+              }
+            },
+            "timeAimed": "2023-12-18T13:48:00+01:00"
+          },
+          "end": {
+            "place": {
+              "type": "StopPlace",
+              "id": "8507000",
+              "name": "Bern",
+              "canton": "BE",
+              "centroid": {
+                "type": "Point",
+                "coordinates": [
+                  7.439122,
+                  46.948825
+                ]
+              },
+              "tariffBorder": false,
+              "vehicleModes": [],
+              "links": {
+                "detail": "/v3/stop-places/8507000"
+              }
+            },
+            "timeAimed": "2023-12-18T13:54:00+01:00"
+          }
+        }
+      ],
+      "status": {
+        "alternative": false,
+        "valid": true,
+        "cancelled": false,
+        "partiallyCancelled": false,
+        "quayChanged": false,
+        "delayed": false,
+        "delayedUnknown": false,
+        "reachable": true,
+        "notServicedStopPoints": false,
+        "unplannedStopPoints": false
+      },
+      "fastTransfer": false,
+      "transfers": 0,
+      "duration": "PT38M",
+      "pagingChecksum": "591d53f2_3",
+      "operatingPeriods": [
+        {
+          "daysIrregularFormatted": "11. Dec 2023 until 13. Dec 2024 Mo - Fr; not 25., 26. Dec 2023, 1., 2. Jan 2024, 29. Mar 2024, 1. Apr 2024, 9., 20. May 2024, 1. Aug 2024",
+          "operatingDays": [],
+          "name": "Trip"
+        }
+      ]
+    },
+    {
+      "id": "2AZECgJWMRKrBcKswrZCQUlNwrZ0AQuYSEtJwrZHQEYkQT0yQE89NDYuOTU0MzIwLCA3LjM4MzY0MEBYPTczCQoMWT00NgkfkEB1PTBAYT0xMjhAJEE9MUBPPUJlcm4gQsO8bXBsaXogTm9yZEAFOQw5NzUzCTkQNDU4MzIFOSBMPTg1MDQ0ODkRQywyMDIzMTIxODEzMjQdDRg0NiQkJDEkBQEIwqdU_moAAWoZrSRAWD03NDM5MTMxDZ8MODgzNBmfCDcwMBXiGZ8ENDYdDSw1MiRTIDUgMTU1NDkZqCi2R1DCtmZ0QDBAMgFDPDEyMEAtMUAxMDBAMUBAMEABARRmYWxzZUAFGAUFEC0xQCRmNgMACMKnYu5DAAlDAHQ6VQDIZkAkwqfCtktDwrYjVkUjMiNDRiMxMDAjQ0EjMCNDTSMwI1NJQ1QjMSNBTSMxMTU1MDgwAQwgMiMwI1JUIzcjATsNPCgwI0VSRyMyI0hJTgEMJENLIzUzOTM2NHwdBwQ5MgUOLDkyfDB8MHw2NTYyMQURIDUzfDR8MHwxOAUYFC0yMTQ3NEFhADgBYQBSEWIwMSMaowEKOgoSCgc4NUUuuBIHU1RBVElPThIZMjAyMy0xMi0xOFQxMzo0NjowMCswMTowMCIHUExBTk5FRCgLFTwhyxU8ABo6PAAENTJKPABYDBIZCAsQDBoGMDAwMDMzIgFTKgE1MgUl6jwqDlBVQkxJQ19KT1VSTkVZ",
+      "legs": [
+        {
+          "type": "AccessLeg",
+          "mode": "FOOT",
+          "id": "0",
+          "distance": 1668,
+          "duration": "PT22M",
+          "start": {
+            "place": {
+              "type": "Address",
+              "id": "A=2@O=46.954320, 7.383640@X=7383640@Y=46954320@",
+              "name": "46.954320, 7.383640",
+              "canton": "BE",
+              "centroid": {
+                "type": "Point",
+                "coordinates": [
+                  7.38364,
+                  46.95432
+                ]
+              }
+            },
+            "timeAimed": "2023-12-18T13:24:00+01:00"
+          },
+          "end": {
+            "place": {
+              "type": "StopPlace",
+              "id": "8504489",
+              "name": "Bern B\u00fcmpliz Nord",
+              "canton": "BE",
+              "centroid": {
+                "type": "Point",
+                "coordinates": [
+                  7.389744,
+                  46.945832
+                ]
+              },
+              "tariffBorder": false,
+              "vehicleModes": [],
+              "links": {
+                "detail": "/v3/stop-places/8504489"
+              }
+            },
+            "timeAimed": "2023-12-18T13:46:00+01:00"
+          }
+        },
+        {
+          "type": "PTRideLeg",
+          "mode": "TRAIN",
+          "id": "1",
+          "duration": "PT6M",
+          "serviceJourney": {
+            "id": "1|302712|5|95|18122023|C:B",
+            "stopPoints": [
+              {
+                "place": {
+                  "type": "StopPlace",
+                  "id": "8504489",
+                  "name": "Bern B\u00fcmpliz Nord",
+                  "canton": "BE",
+                  "centroid": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.389744,
+                      46.945832
+                    ]
+                  },
+                  "tariffBorder": false,
+                  "vehicleModes": [],
+                  "links": {
+                    "detail": "/v3/stop-places/8504489"
+                  }
+                },
+                "forBoarding": true,
+                "forAlighting": true,
+                "accessibilityBoardingAlighting": {
+                  "limitation": "BOARDING_ALIGHTING_BY_NOTIFICATION",
+                  "name": "Board/alight with staff assistance, register in advance",
+                  "description": "You require boarding/alighting assistance for this connection. Please register on swisspass.ch/handicap or with the Contact Center Handicap at least one hour before your train departs.",
+                  "assistanceService": {
+                    "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                    "arguments": {
+                      "PHONE": [
+                        "+41 800 007 102"
+                      ],
+                      "URL": [
+                        "sbb.ch/en/handicap"
+                      ]
+                    }
+                  },
+                  "corporateIdentityIcon": "sa-ra"
+                },
+                "stopStatus": "PLANNED",
+                "requestStop": false,
+                "departure": {
+                  "timeAimed": "2023-12-18T13:46:00+01:00",
+                  "quayAimed": {
+                    "id": "8504489_5",
+                    "swissLocationId": "ch:1:sloid:4489:0:366122",
+                    "name": "5"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "5"
+                },
+                "delayUndefined": false,
+                "routeIndex": 11,
+                "occupancyFirstClass": "LOW",
+                "occupancySecondClass": "LOW"
+              },
+              {
+                "place": {
+                  "type": "StopPlace",
+                  "id": "8507000",
+                  "name": "Bern",
+                  "canton": "BE",
+                  "centroid": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.439122,
+                      46.948825
+                    ]
+                  },
+                  "tariffBorder": false,
+                  "vehicleModes": [],
+                  "links": {
+                    "detail": "/v3/stop-places/8507000"
+                  }
+                },
+                "forBoarding": true,
+                "forAlighting": true,
+                "accessibilityBoardingAlighting": {
+                  "limitation": "BOARDING_ALIGHTING_BY_NOTIFICATION",
+                  "name": "Board/alight with staff assistance, register in advance",
+                  "description": "You require boarding/alighting assistance for this connection. Please register on swisspass.ch/handicap or with the Contact Center Handicap at least one hour before your train departs.",
+                  "assistanceService": {
+                    "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                    "arguments": {
+                      "PHONE": [
+                        "+41 800 007 102"
+                      ],
+                      "URL": [
+                        "sbb.ch/en/handicap"
+                      ]
+                    }
+                  },
+                  "corporateIdentityIcon": "sa-ra"
+                },
+                "stopStatus": "PLANNED",
+                "requestStop": false,
+                "arrival": {
+                  "timeAimed": "2023-12-18T13:52:00+01:00",
+                  "quayAimed": {
+                    "id": "8507000_13",
+                    "swissLocationId": "ch:1:sloid:7000:6:13",
+                    "name": "13"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "13"
+                },
+                "delayUndefined": false,
+                "routeIndex": 12,
+                "occupancyFirstClass": "UNKNOWN",
+                "occupancySecondClass": "UNKNOWN"
+              }
+            ],
+            "serviceProducts": [
+              {
+                "name": "S 5 15549",
+                "line": "5",
+                "lineId": "H_5_000033_",
+                "vehicleMode": {
+                  "id": "TRAIN",
+                  "name": "Train",
+                  "corporateIdentityIcon": "SBB_oev_b_t02",
+                  "vehicleSubModeName": "Urban train",
+                  "vehicleSubModeShortName": "S"
+                },
+                "number": "15549",
+                "numberFormatted": "15549",
+                "operator": {
+                  "id": "000033",
+                  "name": "BLS AG (bls)",
+                  "shortName": "BLS"
+                },
+                "routeIndexFrom": 11,
+                "routeIndexTo": 12
+              }
+            ],
+            "serviceAlteration": {
+              "cancelled": false,
+              "partiallyCancelled": false,
+              "reachable": true,
+              "redirected": false
+            },
+            "notices": [
+              {
+                "name": "JY",
+                "text": {
+                  "template": "ch:1:sjyid:100015:15549-001",
+                  "arguments": {}
+                },
+                "type": "INFO",
+                "priority": 100,
+                "routeIndexFrom": 11,
+                "routeIndexTo": 12,
+                "advertised": false
+              }
+            ],
+            "situations": [],
+            "operatingPeriods": [],
+            "quayTypeName": "Platform",
+            "quayTypeShortName": "Pl.",
+            "directions": [
+              {
+                "name": "Bern"
+              }
+            ]
+          }
+        }
+      ],
+      "status": {
+        "alternative": false,
+        "valid": true,
+        "cancelled": false,
+        "partiallyCancelled": false,
+        "quayChanged": false,
+        "delayed": false,
+        "delayedUnknown": false,
+        "reachable": true,
+        "notServicedStopPoints": false,
+        "unplannedStopPoints": false
+      },
+      "fastTransfer": false,
+      "transfers": 0,
+      "duration": "PT28M",
+      "pagingChecksum": "da4b9400_3",
+      "operatingPeriods": [
+        {
+          "daysIrregularFormatted": "10. Dec 2023 until 14. Dec 2024 daily",
+          "operatingDays": [],
+          "name": "Trip"
+        }
+      ]
+    },
+    {
+      "id": "mgtECgJWMRLiBsKswrZCQUlNwrZ0AQuYSEtJwrZHQEYkQT0yQE89NDYuOTU0MzIwLCA3LjM4MzY0MEBYPTczCQoMWT00Ngkf4EB1PTBAYT0xMjhAJEE9MUBPPUJldGhsZWhlbSBiLiBCZXJuLCBIb2xlbmFja2VyQFg9NzM4MjQ2MwlEEDQ4NjU1BUQgTD04NTcxNDM1EU4sMjAyMzEyMTgxMzI0HQ0YMzgkJCQxJAUBCMKnVP51ADp1ABHDAbYYQmFobmhvZgGzFDQ0MDIxMBGzCDEwNhmzDDY2NDZGswAEMzgdsyg1NiRUIDggMjUxMx27AFf6bQAZqwWiEDM5MTMxEaIIODM0FaIMMDcwMDWjOVUENTYZDQg0MDI9VSi2R1DCtmZ0QDBAMgE6PDEyMEAtMUAxMDBAMUBAMEABARRmYWxzZUAFGAUFEC0xQCRmNgMACMKnYu5DAAlDAHQ6VQDIZkAkwqfCtktDwrYjVkUjMiNDRiMxMDAjQ0EjMCNDTSMwI1NJQ1QjMSNBTSMxMTU1MDgwAQwgMiMwI1JUIzcjATsNPDQwI0VSRyM4MTk1I0hJTgEPJENLIzUzOTM2NHwdBwQ5MgEOJDQwMnwwfDB8ODUBDhwzNTN8NXwwfAkUFC0yMTQ3NGEYADgBYABSEWEwMSMargQKOgoSCgc4NUXawBIHU1RBVElPThIZMjAyMy0xMi0xOFQxMzozODowMCswMTowMCIHUExBTk5FRCgDCh8JPBA5MDA0NhU8ACIVIQAEESEQNzEzNDRKIQAABREhEDA3OTkzSiEAAAYRIQFjTiEAAAcRIRA3OTg5OEpCAAAIESEQODA5MzlKIQAACREhDDkwMDA5AhnGAAodIQQ0MkpCAAALLiEAADFKIQAADB0hADBOhAAADREhAcYAN0pCAAAOLiEATmsBAA81yGHvFUIAGjrIAQQ1NkrIAVgQEhgIAxAQGgYwMDA4MjciAVQqATgyBIEOPCoOUFVCTElDX0pPVVJORVk",
+      "legs": [
+        {
+          "type": "AccessLeg",
+          "mode": "FOOT",
+          "id": "0",
+          "distance": 1009,
+          "duration": "PT14M",
+          "start": {
+            "place": {
+              "type": "Address",
+              "id": "A=2@O=46.954320, 7.383640@X=7383640@Y=46954320@",
+              "name": "46.954320, 7.383640",
+              "canton": "BE",
+              "centroid": {
+                "type": "Point",
+                "coordinates": [
+                  7.38364,
+                  46.95432
+                ]
+              }
+            },
+            "timeAimed": "2023-12-18T13:24:00+01:00"
+          },
+          "end": {
+            "place": {
+              "type": "StopPlace",
+              "id": "8571435",
+              "name": "Bethlehem b. Bern, Holenacker",
+              "canton": "BE",
+              "centroid": {
+                "type": "Point",
+                "coordinates": [
+                  7.382463,
+                  46.948655
+                ]
+              },
+              "tariffBorder": false,
+              "vehicleModes": [],
+              "links": {
+                "detail": "/v3/stop-places/8571435"
+              }
+            },
+            "timeAimed": "2023-12-18T13:38:00+01:00"
+          }
+        },
+        {
+          "type": "PTRideLeg",
+          "mode": "TRAMWAY",
+          "id": "1",
+          "duration": "PT18M",
+          "serviceJourney": {
+            "id": "1|87998|2|95|18122023|C:B",
+            "stopPoints": [
+              {
+                "place": {
+                  "type": "StopPlace",
+                  "id": "8571435",
+                  "name": "Bethlehem b. Bern, Holenacker",
+                  "canton": "BE",
+                  "centroid": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.382463,
+                      46.948655
+                    ]
+                  },
+                  "tariffBorder": false,
+                  "vehicleModes": [],
+                  "links": {
+                    "detail": "/v3/stop-places/8571435"
+                  }
+                },
+                "forBoarding": true,
+                "forAlighting": true,
+                "accessibilityBoardingAlighting": {
+                  "limitation": "BOARDING_ALIGHTING_BY_CREW",
+                  "name": "Board/alight with train crew assistance",
+                  "description": "Please contact the transport or service staff directly to request assistance.",
+                  "assistanceService": {
+                    "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                    "arguments": {
+                      "PHONE": [
+                        "+41 800 007 102"
+                      ],
+                      "URL": [
+                        "sbb.ch/en/handicap"
+                      ]
+                    }
+                  },
+                  "corporateIdentityIcon": "sa-rp"
+                },
+                "stopStatus": "PLANNED",
+                "requestStop": false,
+                "departure": {
+                  "timeAimed": "2023-12-18T13:38:00+01:00",
+                  "quayAimed": {
+                    "id": "8571435_$$2",
+                    "swissLocationId": "ch:1:sloid:71435:0:16",
+                    "name": "$$2"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "$$2"
+                },
+                "delayUndefined": false,
+                "routeIndex": 3,
+                "occupancyFirstClass": "UNKNOWN",
+                "occupancySecondClass": "UNKNOWN"
+              },
+              {
+                "place": {
+                  "type": "StopPlace",
+                  "id": "8590046",
+                  "name": "Bern, Tscharnergut",
+                  "canton": "BE",
+                  "centroid": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.388306,
+                      46.948906
+                    ]
+                  },
+                  "tariffBorder": false,
+                  "vehicleModes": [],
+                  "links": {
+                    "detail": "/v3/stop-places/8590046"
+                  }
+                },
+                "forBoarding": true,
+                "forAlighting": true,
+                "accessibilityBoardingAlighting": {
+                  "limitation": "BOARDING_ALIGHTING_SELF",
+                  "name": "Independent boarding/alighting",
+                  "description": "You can board and alight independently on this connection.",
+                  "assistanceService": {
+                    "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                    "arguments": {
+                      "PHONE": [
+                        "+41 800 007 102"
+                      ],
+                      "URL": [
+                        "sbb.ch/en/handicap"
+                      ]
+                    }
+                  },
+                  "corporateIdentityIcon": "sa-rs"
+                },
+                "stopStatus": "PLANNED",
+                "requestStop": false,
+                "arrival": {
+                  "timeAimed": "2023-12-18T13:39:00+01:00",
+                  "quayAimed": {
+                    "id": "8590046_$$3",
+                    "swissLocationId": "ch:1:sloid:90046:0:16",
+                    "name": "$$3"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "$$3"
+                },
+                "departure": {
+                  "timeAimed": "2023-12-18T13:39:00+01:00",
+                  "quayAimed": {
+                    "id": "8590046_$$3",
+                    "swissLocationId": "ch:1:sloid:90046:0:16",
+                    "name": "$$3"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "$$3"
+                },
+                "delayUndefined": false,
+                "routeIndex": 4,
+                "occupancyFirstClass": "UNKNOWN",
+                "occupancySecondClass": "UNKNOWN"
+              },
+              {
+                "place": {
+                  "type": "StopPlace",
+                  "id": "8571344",
+                  "name": "Bethlehem b. Bern, Kirche",
+                  "canton": "BE",
+                  "centroid": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.394185,
+                      46.94923
+                    ]
+                  },
+                  "tariffBorder": false,
+                  "vehicleModes": [],
+                  "links": {
+                    "detail": "/v3/stop-places/8571344"
+                  }
+                },
+                "forBoarding": true,
+                "forAlighting": true,
+                "accessibilityBoardingAlighting": {
+                  "limitation": "BOARDING_ALIGHTING_SHUTTLE_TRANSPORT",
+                  "name": "By shuttle to the accessible stop, register in advance",
+                  "description": "You will need a shuttle for this connection. Please register with the Contact Center Handicap at least two hours before your train departs.",
+                  "assistanceService": {
+                    "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                    "arguments": {
+                      "PHONE": [
+                        "+41 800 007 102"
+                      ],
+                      "URL": [
+                        "sbb.ch/en/handicap"
+                      ]
+                    }
+                  },
+                  "corporateIdentityIcon": "sa-wt"
+                },
+                "stopStatus": "PLANNED",
+                "requestStop": false,
+                "arrival": {
+                  "timeAimed": "2023-12-18T13:40:00+01:00",
+                  "quayChanged": false
+                },
+                "departure": {
+                  "timeAimed": "2023-12-18T13:40:00+01:00",
+                  "quayChanged": false
+                },
+                "delayUndefined": false,
+                "routeIndex": 5,
+                "occupancyFirstClass": "UNKNOWN",
+                "occupancySecondClass": "UNKNOWN"
+              },
+              {
+                "place": {
+                  "type": "StopPlace",
+                  "id": "8507993",
+                  "name": "Bethlehem b. Bern, S\u00e4ge",
+                  "canton": "BE",
+                  "centroid": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.395093,
+                      46.947396
+                    ]
+                  },
+                  "tariffBorder": false,
+                  "vehicleModes": [],
+                  "links": {
+                    "detail": "/v3/stop-places/8507993"
+                  }
+                },
+                "forBoarding": true,
+                "forAlighting": true,
+                "accessibilityBoardingAlighting": {
+                  "limitation": "BOARDING_ALIGHTING_BY_CREW",
+                  "name": "Board/alight with train crew assistance",
+                  "description": "Please contact the transport or service staff directly to request assistance.",
+                  "assistanceService": {
+                    "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                    "arguments": {
+                      "PHONE": [
+                        "+41 800 007 102"
+                      ],
+                      "URL": [
+                        "sbb.ch/en/handicap"
+                      ]
+                    }
+                  },
+                  "corporateIdentityIcon": "sa-rp"
+                },
+                "stopStatus": "PLANNED",
+                "requestStop": false,
+                "arrival": {
+                  "timeAimed": "2023-12-18T13:41:00+01:00",
+                  "quayAimed": {
+                    "id": "8507993_$$2",
+                    "swissLocationId": "ch:1:sloid:7993:0:16",
+                    "name": "$$2"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "$$2"
+                },
+                "departure": {
+                  "timeAimed": "2023-12-18T13:41:00+01:00",
+                  "quayAimed": {
+                    "id": "8507993_$$2",
+                    "swissLocationId": "ch:1:sloid:7993:0:16",
+                    "name": "$$2"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "$$2"
+                },
+                "delayUndefined": false,
+                "routeIndex": 6,
+                "occupancyFirstClass": "UNKNOWN",
+                "occupancySecondClass": "UNKNOWN"
+              },
+              {
+                "place": {
+                  "type": "StopPlace",
+                  "id": "8590043",
+                  "name": "Bern, St\u00f6ckacker (Tram)",
+                  "canton": "BE",
+                  "centroid": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.399003,
+                      46.944672
+                    ]
+                  },
+                  "tariffBorder": false,
+                  "vehicleModes": [],
+                  "links": {
+                    "detail": "/v3/stop-places/8590043"
+                  }
+                },
+                "forBoarding": true,
+                "forAlighting": true,
+                "accessibilityBoardingAlighting": {
+                  "limitation": "BOARDING_ALIGHTING_BY_CREW",
+                  "name": "Board/alight with train crew assistance",
+                  "description": "Please contact the transport or service staff directly to request assistance.",
+                  "assistanceService": {
+                    "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                    "arguments": {
+                      "PHONE": [
+                        "+41 800 007 102"
+                      ],
+                      "URL": [
+                        "sbb.ch/en/handicap"
+                      ]
+                    }
+                  },
+                  "corporateIdentityIcon": "sa-rp"
+                },
+                "stopStatus": "PLANNED",
+                "requestStop": false,
+                "arrival": {
+                  "timeAimed": "2023-12-18T13:43:00+01:00",
+                  "quayAimed": {
+                    "id": "8590043_$$2",
+                    "swissLocationId": "ch:1:sloid:90043:0:16",
+                    "name": "$$2"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "$$2"
+                },
+                "departure": {
+                  "timeAimed": "2023-12-18T13:43:00+01:00",
+                  "quayAimed": {
+                    "id": "8590043_$$2",
+                    "swissLocationId": "ch:1:sloid:90043:0:16",
+                    "name": "$$2"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "$$2"
+                },
+                "delayUndefined": false,
+                "routeIndex": 7,
+                "occupancyFirstClass": "UNKNOWN",
+                "occupancySecondClass": "UNKNOWN"
+              },
+              {
+                "place": {
+                  "type": "StopPlace",
+                  "id": "8579898",
+                  "name": "B\u00fcmpliz, Unterf\u00fchrung",
+                  "canton": "BE",
+                  "centroid": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.400702,
+                      46.942191
+                    ]
+                  },
+                  "tariffBorder": false,
+                  "vehicleModes": [],
+                  "links": {
+                    "detail": "/v3/stop-places/8579898"
+                  }
+                },
+                "forBoarding": true,
+                "forAlighting": true,
+                "accessibilityBoardingAlighting": {
+                  "limitation": "BOARDING_ALIGHTING_BY_CREW",
+                  "name": "Board/alight with train crew assistance",
+                  "description": "Please contact the transport or service staff directly to request assistance.",
+                  "assistanceService": {
+                    "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                    "arguments": {
+                      "PHONE": [
+                        "+41 800 007 102"
+                      ],
+                      "URL": [
+                        "sbb.ch/en/handicap"
+                      ]
+                    }
+                  },
+                  "corporateIdentityIcon": "sa-rp"
+                },
+                "stopStatus": "PLANNED",
+                "requestStop": false,
+                "arrival": {
+                  "timeAimed": "2023-12-18T13:44:00+01:00",
+                  "quayAimed": {
+                    "id": "8579898_A",
+                    "swissLocationId": "ch:1:sloid:79898:0:18",
+                    "name": "A"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "A"
+                },
+                "departure": {
+                  "timeAimed": "2023-12-18T13:44:00+01:00",
+                  "quayAimed": {
+                    "id": "8579898_A",
+                    "swissLocationId": "ch:1:sloid:79898:0:18",
+                    "name": "A"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "A"
+                },
+                "delayUndefined": false,
+                "routeIndex": 8,
+                "occupancyFirstClass": "UNKNOWN",
+                "occupancySecondClass": "UNKNOWN"
+              },
+              {
+                "place": {
+                  "type": "StopPlace",
+                  "id": "8580939",
+                  "name": "Bern Europaplatz, Bahnhof",
+                  "canton": "BE",
+                  "centroid": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.406311,
+                      46.943252
+                    ]
+                  },
+                  "tariffBorder": false,
+                  "vehicleModes": [],
+                  "links": {
+                    "detail": "/v3/stop-places/8580939"
+                  }
+                },
+                "forBoarding": true,
+                "forAlighting": true,
+                "accessibilityBoardingAlighting": {
+                  "limitation": "BOARDING_ALIGHTING_SELF",
+                  "name": "Independent boarding/alighting",
+                  "description": "You can board and alight independently on this connection.",
+                  "assistanceService": {
+                    "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                    "arguments": {
+                      "PHONE": [
+                        "+41 800 007 102"
+                      ],
+                      "URL": [
+                        "sbb.ch/en/handicap"
+                      ]
+                    }
+                  },
+                  "corporateIdentityIcon": "sa-rs"
+                },
+                "stopStatus": "PLANNED",
+                "requestStop": false,
+                "arrival": {
+                  "timeAimed": "2023-12-18T13:46:00+01:00",
+                  "quayAimed": {
+                    "id": "8580939_A",
+                    "swissLocationId": "ch:1:sloid:80939:0:16",
+                    "name": "A"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "A"
+                },
+                "departure": {
+                  "timeAimed": "2023-12-18T13:46:00+01:00",
+                  "quayAimed": {
+                    "id": "8580939_A",
+                    "swissLocationId": "ch:1:sloid:80939:0:16",
+                    "name": "A"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "A"
+                },
+                "delayUndefined": false,
+                "routeIndex": 9,
+                "occupancyFirstClass": "UNKNOWN",
+                "occupancySecondClass": "UNKNOWN"
+              },
+              {
+                "place": {
+                  "type": "StopPlace",
+                  "id": "8590005",
+                  "name": "Bern, Steigerhubel",
+                  "canton": "BE",
+                  "centroid": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.411669,
+                      46.943935
+                    ]
+                  },
+                  "tariffBorder": false,
+                  "vehicleModes": [],
+                  "links": {
+                    "detail": "/v3/stop-places/8590005"
+                  }
+                },
+                "forBoarding": true,
+                "forAlighting": true,
+                "accessibilityBoardingAlighting": {
+                  "limitation": "BOARDING_ALIGHTING_BY_CREW",
+                  "name": "Board/alight with train crew assistance",
+                  "description": "Please contact the transport or service staff directly to request assistance.",
+                  "assistanceService": {
+                    "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                    "arguments": {
+                      "PHONE": [
+                        "+41 800 007 102"
+                      ],
+                      "URL": [
+                        "sbb.ch/en/handicap"
+                      ]
+                    }
+                  },
+                  "corporateIdentityIcon": "sa-rp"
+                },
+                "stopStatus": "PLANNED",
+                "requestStop": false,
+                "arrival": {
+                  "timeAimed": "2023-12-18T13:47:00+01:00",
+                  "quayAimed": {
+                    "id": "8590005_$$2",
+                    "swissLocationId": "ch:1:sloid:90005:0:16",
+                    "name": "$$2"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "$$2"
+                },
+                "departure": {
+                  "timeAimed": "2023-12-18T13:47:00+01:00",
+                  "quayAimed": {
+                    "id": "8590005_$$2",
+                    "swissLocationId": "ch:1:sloid:90005:0:16",
+                    "name": "$$2"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "$$2"
+                },
+                "delayUndefined": false,
+                "routeIndex": 10,
+                "occupancyFirstClass": "UNKNOWN",
+                "occupancySecondClass": "UNKNOWN"
+              },
+              {
+                "place": {
+                  "type": "StopPlace",
+                  "id": "8590042",
+                  "name": "Bern, Schlossmatte",
+                  "canton": "BE",
+                  "centroid": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.414995,
+                      46.944169
+                    ]
+                  },
+                  "tariffBorder": false,
+                  "vehicleModes": [],
+                  "links": {
+                    "detail": "/v3/stop-places/8590042"
+                  }
+                },
+                "forBoarding": true,
+                "forAlighting": true,
+                "accessibilityBoardingAlighting": {
+                  "limitation": "BOARDING_ALIGHTING_BY_CREW",
+                  "name": "Board/alight with train crew assistance",
+                  "description": "Please contact the transport or service staff directly to request assistance.",
+                  "assistanceService": {
+                    "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                    "arguments": {
+                      "PHONE": [
+                        "+41 800 007 102"
+                      ],
+                      "URL": [
+                        "sbb.ch/en/handicap"
+                      ]
+                    }
+                  },
+                  "corporateIdentityIcon": "sa-rp"
+                },
+                "stopStatus": "PLANNED",
+                "requestStop": false,
+                "arrival": {
+                  "timeAimed": "2023-12-18T13:48:00+01:00",
+                  "quayAimed": {
+                    "id": "8590042_$$2",
+                    "swissLocationId": "ch:1:sloid:90042:0:16",
+                    "name": "$$2"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "$$2"
+                },
+                "departure": {
+                  "timeAimed": "2023-12-18T13:48:00+01:00",
+                  "quayAimed": {
+                    "id": "8590042_$$2",
+                    "swissLocationId": "ch:1:sloid:90042:0:16",
+                    "name": "$$2"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "$$2"
+                },
+                "delayUndefined": false,
+                "routeIndex": 11,
+                "occupancyFirstClass": "UNKNOWN",
+                "occupancySecondClass": "UNKNOWN"
+              },
+              {
+                "place": {
+                  "type": "StopPlace",
+                  "id": "8590041",
+                  "name": "Bern, Loryplatz",
+                  "canton": "BE",
+                  "centroid": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.421296,
+                      46.944439
+                    ]
+                  },
+                  "tariffBorder": false,
+                  "vehicleModes": [],
+                  "links": {
+                    "detail": "/v3/stop-places/8590041"
+                  }
+                },
+                "forBoarding": true,
+                "forAlighting": true,
+                "accessibilityBoardingAlighting": {
+                  "limitation": "BOARDING_ALIGHTING_SELF",
+                  "name": "Independent boarding/alighting",
+                  "description": "You can board and alight independently on this connection.",
+                  "assistanceService": {
+                    "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                    "arguments": {
+                      "PHONE": [
+                        "+41 800 007 102"
+                      ],
+                      "URL": [
+                        "sbb.ch/en/handicap"
+                      ]
+                    }
+                  },
+                  "corporateIdentityIcon": "sa-rs"
+                },
+                "stopStatus": "PLANNED",
+                "requestStop": false,
+                "arrival": {
+                  "timeAimed": "2023-12-18T13:49:00+01:00",
+                  "quayAimed": {
+                    "id": "8590041_A",
+                    "swissLocationId": "ch:1:sloid:90041:0:16",
+                    "name": "A"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "A"
+                },
+                "departure": {
+                  "timeAimed": "2023-12-18T13:49:00+01:00",
+                  "quayAimed": {
+                    "id": "8590041_A",
+                    "swissLocationId": "ch:1:sloid:90041:0:16",
+                    "name": "A"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "A"
+                },
+                "delayUndefined": false,
+                "routeIndex": 12,
+                "occupancyFirstClass": "UNKNOWN",
+                "occupancySecondClass": "UNKNOWN"
+              },
+              {
+                "place": {
+                  "type": "StopPlace",
+                  "id": "8590009",
+                  "name": "Bern, Kaufm\u00e4nnischer Verband",
+                  "canton": "BE",
+                  "centroid": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.427472,
+                      46.945688
+                    ]
+                  },
+                  "tariffBorder": false,
+                  "vehicleModes": [],
+                  "links": {
+                    "detail": "/v3/stop-places/8590009"
+                  }
+                },
+                "forBoarding": true,
+                "forAlighting": true,
+                "accessibilityBoardingAlighting": {
+                  "limitation": "BOARDING_ALIGHTING_BY_CREW",
+                  "name": "Board/alight with train crew assistance",
+                  "description": "Please contact the transport or service staff directly to request assistance.",
+                  "assistanceService": {
+                    "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                    "arguments": {
+                      "PHONE": [
+                        "+41 800 007 102"
+                      ],
+                      "URL": [
+                        "sbb.ch/en/handicap"
+                      ]
+                    }
+                  },
+                  "corporateIdentityIcon": "sa-rp"
+                },
+                "stopStatus": "PLANNED",
+                "requestStop": false,
+                "arrival": {
+                  "timeAimed": "2023-12-18T13:51:00+01:00",
+                  "quayAimed": {
+                    "id": "8590009_$$2",
+                    "swissLocationId": "ch:1:sloid:90009:0:16",
+                    "name": "$$2"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "$$2"
+                },
+                "departure": {
+                  "timeAimed": "2023-12-18T13:51:00+01:00",
+                  "quayAimed": {
+                    "id": "8590009_$$2",
+                    "swissLocationId": "ch:1:sloid:90009:0:16",
+                    "name": "$$2"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "$$2"
+                },
+                "delayUndefined": false,
+                "routeIndex": 13,
+                "occupancyFirstClass": "UNKNOWN",
+                "occupancySecondClass": "UNKNOWN"
+              },
+              {
+                "place": {
+                  "type": "StopPlace",
+                  "id": "8579897",
+                  "name": "Bern, Kocherpark",
+                  "canton": "BE",
+                  "centroid": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.434052,
+                      46.945886
+                    ]
+                  },
+                  "tariffBorder": false,
+                  "vehicleModes": [],
+                  "links": {
+                    "detail": "/v3/stop-places/8579897"
+                  }
+                },
+                "forBoarding": true,
+                "forAlighting": true,
+                "accessibilityBoardingAlighting": {
+                  "limitation": "BOARDING_ALIGHTING_NOT_POSSIBLE",
+                  "name": "Connection not wheelchair accessible",
+                  "description": "This connection is not wheelchair accessible. There may be an accessible boarding/alighting location nearby. Obtain information from the Contact Center Handicap.",
+                  "assistanceService": {
+                    "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                    "arguments": {
+                      "PHONE": [
+                        "+41 800 007 102"
+                      ],
+                      "URL": [
+                        "sbb.ch/en/handicap"
+                      ]
+                    }
+                  },
+                  "corporateIdentityIcon": "sa-rn"
+                },
+                "stopStatus": "PLANNED",
+                "requestStop": false,
+                "arrival": {
+                  "timeAimed": "2023-12-18T13:53:00+01:00",
+                  "quayAimed": {
+                    "id": "8579897_A",
+                    "swissLocationId": "ch:1:sloid:79897:0:2",
+                    "name": "A"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "A"
+                },
+                "departure": {
+                  "timeAimed": "2023-12-18T13:53:00+01:00",
+                  "quayAimed": {
+                    "id": "8579897_A",
+                    "swissLocationId": "ch:1:sloid:79897:0:2",
+                    "name": "A"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "A"
+                },
+                "delayUndefined": false,
+                "routeIndex": 14,
+                "occupancyFirstClass": "UNKNOWN",
+                "occupancySecondClass": "UNKNOWN"
+              },
+              {
+                "place": {
+                  "type": "StopPlace",
+                  "id": "8579896",
+                  "name": "Bern, Hirschengraben",
+                  "canton": "BE",
+                  "centroid": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.437783,
+                      46.946066
+                    ]
+                  },
+                  "tariffBorder": false,
+                  "vehicleModes": [],
+                  "links": {
+                    "detail": "/v3/stop-places/8579896"
+                  }
+                },
+                "forBoarding": true,
+                "forAlighting": true,
+                "accessibilityBoardingAlighting": {
+                  "limitation": "BOARDING_ALIGHTING_BY_CREW",
+                  "name": "Board/alight with train crew assistance",
+                  "description": "Please contact the transport or service staff directly to request assistance.",
+                  "assistanceService": {
+                    "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                    "arguments": {
+                      "PHONE": [
+                        "+41 800 007 102"
+                      ],
+                      "URL": [
+                        "sbb.ch/en/handicap"
+                      ]
+                    }
+                  },
+                  "corporateIdentityIcon": "sa-rp"
+                },
+                "stopStatus": "PLANNED",
+                "requestStop": false,
+                "arrival": {
+                  "timeAimed": "2023-12-18T13:54:00+01:00",
+                  "quayAimed": {
+                    "id": "8579896_B",
+                    "swissLocationId": "ch:1:sloid:79896:0:2",
+                    "name": "B"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "B"
+                },
+                "departure": {
+                  "timeAimed": "2023-12-18T13:54:00+01:00",
+                  "quayAimed": {
+                    "id": "8579896_B",
+                    "swissLocationId": "ch:1:sloid:79896:0:2",
+                    "name": "B"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "B"
+                },
+                "delayUndefined": false,
+                "routeIndex": 15,
+                "occupancyFirstClass": "UNKNOWN",
+                "occupancySecondClass": "UNKNOWN"
+              },
+              {
+                "place": {
+                  "type": "StopPlace",
+                  "id": "8576646",
+                  "name": "Bern, Bahnhof",
+                  "canton": "BE",
+                  "centroid": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.44021,
+                      46.948106
+                    ]
+                  },
+                  "tariffBorder": false,
+                  "vehicleModes": [],
+                  "links": {
+                    "detail": "/v3/stop-places/8576646"
+                  }
+                },
+                "forBoarding": true,
+                "forAlighting": true,
+                "accessibilityBoardingAlighting": {
+                  "limitation": "BOARDING_ALIGHTING_BY_CREW",
+                  "name": "Board/alight with train crew assistance",
+                  "description": "Please contact the transport or service staff directly to request assistance.",
+                  "assistanceService": {
+                    "template": "Contact Center Handicap\ndaily from 5.00-24.00 at PHONE (free of charge in Switzerland/subject to charge from abroad)\nFor more information visit URL",
+                    "arguments": {
+                      "PHONE": [
+                        "+41 800 007 102"
+                      ],
+                      "URL": [
+                        "sbb.ch/en/handicap"
+                      ]
+                    }
+                  },
+                  "corporateIdentityIcon": "sa-rp"
+                },
+                "stopStatus": "PLANNED",
+                "requestStop": false,
+                "arrival": {
+                  "timeAimed": "2023-12-18T13:56:00+01:00",
+                  "quayAimed": {
+                    "id": "8576646_B",
+                    "swissLocationId": "ch:1:sloid:76646:0:1",
+                    "name": "B"
+                  },
+                  "quayChanged": false,
+                  "quayFormatted": "B"
+                },
+                "delayUndefined": false,
+                "routeIndex": 16,
+                "occupancyFirstClass": "UNKNOWN",
+                "occupancySecondClass": "UNKNOWN"
+              }
+            ],
+            "serviceProducts": [
+              {
+                "name": "T 8 2513",
+                "line": "8",
+                "lineId": "H_8_000827_",
+                "vehicleMode": {
+                  "id": "TRAMWAY",
+                  "name": "Tramway",
+                  "corporateIdentityIcon": "SBB_oev_b_t04",
+                  "vehicleSubModeName": "Tramway",
+                  "vehicleSubModeShortName": "T"
+                },
+                "number": "2513",
+                "numberFormatted": "2513",
+                "operator": {
+                  "id": "000827",
+                  "name": "St\u00e4dtische Verkehrsbetriebe Bern",
+                  "shortName": "SVB"
+                },
+                "routeIndexFrom": 3,
+                "routeIndexTo": 16
+              }
+            ],
+            "serviceAlteration": {
+              "cancelled": false,
+              "partiallyCancelled": false,
+              "reachable": true,
+              "redirected": false
+            },
+            "notices": [
+              {
+                "name": "NF",
+                "text": {
+                  "template": "Low-floor access",
+                  "arguments": {}
+                },
+                "type": "ATTRIBUTE",
+                "priority": 0,
+                "routeIndexFrom": 3,
+                "routeIndexTo": 16,
+                "advertised": true
+              },
+              {
+                "name": "VB",
+                "text": {
+                  "template": "BICYCLES: Limited number of places",
+                  "arguments": {}
+                },
+                "type": "ATTRIBUTE",
+                "priority": 6,
+                "routeIndexFrom": 3,
+                "routeIndexTo": 16,
+                "advertised": true
+              }
+            ],
+            "situations": [
+              {
+                "cause": "INFORMATION",
+                "broadcastMessages": [
+                  {
+                    "id": "78393",
+                    "alternateId": "ch:1:sstid:100626:64de114a8f22d82e1948e66a:_VP0_LINE",
+                    "priority": 60,
+                    "title": "Stop Bern, Bahnhof, stops A, B, C moved",
+                    "detail": "The stop Bern, Bahnhof, stops A, B, C has been moved.<br>This is due to a natural hazard.<br>The restriction lasts from 15.10.2023, 14:18 until 31.12.2023, 20:00.<br>Lines 7, 8 and 9 are affected.<br>Es kann l\u00e4ngere Umsteigezeiten geben..<br>Please observe the local signals.<br>The online timetable has been changed.",
+                    "detailShort": "Stop Bern, Bahnhof, stops A, B, C moved<br>Due to natural hazard",
+                    "distributionPeriod": {
+                      "startDate": "2023-10-15",
+                      "startTime": "14:18:00",
+                      "endDate": "2023-12-31",
+                      "endTime": "20:00:00",
+                      "dailyStartingAt": "00:00:00",
+                      "dailyDuration": "PT23H59M0S"
+                    },
+                    "audiences": [
+                      {
+                        "type": "B2C_TIMETABLE",
+                        "urls": [],
+                        "validFromDate": "2023-10-15",
+                        "validFromTime": "14:18:00",
+                        "validToDate": "2023-12-31",
+                        "validToTime": "20:00:00"
+                      }
+                    ],
+                    "links": {
+                      "detail": "https://fzf-i.app.sbb.ch/en/rti/78393"
+                    }
+                  }
+                ]
+              }
+            ],
+            "operatingPeriods": [],
+            "quayTypeName": "Stop",
+            "quayTypeShortName": "Stop",
+            "directions": [
+              {
+                "name": "Bern, Saali"
+              }
+            ]
+          }
+        },
+        {
+          "type": "AccessLeg",
+          "mode": "FOOT",
+          "id": "2",
+          "distance": 115,
+          "duration": "PT6M",
+          "start": {
+            "place": {
+              "type": "StopPlace",
+              "id": "8576646",
+              "name": "Bern, Bahnhof",
+              "canton": "BE",
+              "centroid": {
+                "type": "Point",
+                "coordinates": [
+                  7.44021,
+                  46.948106
+                ]
+              },
+              "tariffBorder": false,
+              "vehicleModes": [],
+              "links": {
+                "detail": "/v3/stop-places/8576646"
+              }
+            },
+            "timeAimed": "2023-12-18T13:56:00+01:00"
+          },
+          "end": {
+            "place": {
+              "type": "StopPlace",
+              "id": "8507000",
+              "name": "Bern",
+              "canton": "BE",
+              "centroid": {
+                "type": "Point",
+                "coordinates": [
+                  7.439122,
+                  46.948825
+                ]
+              },
+              "tariffBorder": false,
+              "vehicleModes": [],
+              "links": {
+                "detail": "/v3/stop-places/8507000"
+              }
+            },
+            "timeAimed": "2023-12-18T14:02:00+01:00"
+          }
+        }
+      ],
+      "status": {
+        "alternative": false,
+        "valid": true,
+        "cancelled": false,
+        "partiallyCancelled": false,
+        "quayChanged": false,
+        "delayed": false,
+        "delayedUnknown": false,
+        "reachable": true,
+        "notServicedStopPoints": false,
+        "unplannedStopPoints": false
+      },
+      "fastTransfer": false,
+      "transfers": 0,
+      "duration": "PT38M",
+      "pagingChecksum": "7451b927_3",
+      "operatingPeriods": [
+        {
+          "daysIrregularFormatted": "11. Dec 2023 until 13. Dec 2024 Mo - Fr; not 25., 26. Dec 2023, 1., 2. Jan 2024, 29. Mar 2024, 1. Apr 2024, 9., 20. May 2024, 1. Aug 2024",
+          "operatingDays": [],
+          "name": "Trip"
+        }
+      ]
+    }
+  ],
+  "paginationCursor": {
+    "previous": "3%7COB%7CMT%C2%B514%C2%B5539352%C2%B5539349%C2%B5539380%C2%B5539387%C2%B50%C2%B50%C2%B585%C2%B5539347%C2%B51%C2%B50%C2%B52%C2%B50%C2%B50%C2%B5-2147483648%C2%B51%C2%B52%7CPDH%C2%B55b7fb2ba11127a0f2da35a4c497de862%7CRD%C2%B518122023%7CRT%C2%B5130700%7CUS%C2%B50%7CRS%C2%B5INIT",
+    "next": "3%7COF%7CMT%C2%B514%C2%B5539364%C2%B5539364%C2%B5539392%C2%B5539402%C2%B50%C2%B50%C2%B585%C2%B5539353%C2%B55%C2%B50%C2%B52%C2%B50%C2%B50%C2%B5-2147483648%C2%B51%C2%B52%7CPDH%C2%B55b7fb2ba11127a0f2da35a4c497de862%7CRD%C2%B518122023%7CRT%C2%B5130700%7CUS%C2%B50%7CRS%C2%B5INIT"
+  }
+}
